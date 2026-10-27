@@ -1,0 +1,66 @@
+name: Update
+
+# xenon-filter-lists' workflow, kept in Xenon (Meta/ci/filter-lists-workflow.yml) and copied to
+# .github/workflows/update.yml there. Every day it rebuilds Xenon's filter lists from uBlock Origin's with xenon-ublock,
+# signs their manifest, and commits them, where Xenon fetches them (UI/FilterListUpdates.h,
+# Documentation/FilterListUpdates.md).
+#
+# Xenon and xenon-ublock are public, so checking them out needs no token, and GITHUB_TOKEN pushes the lists. Secret:
+#   FILTER_LISTS_SIGNING_KEY  the Ed25519 private key, in PEM, whose public half Xenon checks manifest.json with
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+    inputs:
+      xenon_ref:
+        description: The Xenon branch to build with, to try changes to the lists or this workflow before they're on main
+        default: main
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the published lists
+        uses: actions/checkout@v4
+
+      - name: Check out Xenon
+        uses: actions/checkout@v4
+        with:
+          repository: ThaRae/Xenon
+          ref: ${{ inputs.xenon_ref || 'main' }}
+          path: .build/Xenon
+          persist-credentials: false
+
+      - name: Check out xenon-ublock
+        uses: actions/checkout@v4
+        with:
+          repository: ThaRae/xenon-ublock
+          path: .build/xenon-ublock
+          persist-credentials: false
+
+      - name: Update Rust
+        # tools/build.py checks every filter with a probe built on the engine's adblock crate (Rust, edition 2024), and
+        # builds uBlock Origin's scriptlets with Node.js. The runner image has both, and Python and OpenSSL 3.
+        run: rustup update stable --no-self-update
+
+      - name: Build and sign the lists
+        env:
+          FILTER_LISTS_SIGNING_KEY: ${{ secrets.FILTER_LISTS_SIGNING_KEY }}
+        run: .build/Xenon/Meta/ci/publish-filter-lists.sh .
+
+      - name: Publish them
+        run: |
+          git add -A manifest.json manifest.json.sig NOTICE.txt LICENSE-GPL-3.0.txt lists trusted-lists resources
+          generated_at=$(python3 -c 'import json; print(json.load(open("manifest.json"))["generated_at"])')
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Lists generated $generated_at"
+          git push -q origin HEAD:main
+          git diff --stat HEAD~1 HEAD | tail -1

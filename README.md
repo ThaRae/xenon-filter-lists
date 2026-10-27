@@ -1,10 +1,10 @@
 # xenon-filter-lists
 
-uBlock Origin's filter lists, converted for [Xenon](https://git.avx512.dev/tharae/Xenon)'s content blocker by
-xenon-ublock, rebuilt every day. Xenon downloads them from here once a day, and uses them only if `manifest.json.sig` is
-a valid signature of `manifest.json` by Xenon's key.
+uBlock Origin's filter lists, converted for [Xenon](https://github.com/ThaRae/Xenon)'s content blocker by
+[xenon-ublock](https://github.com/ThaRae/xenon-ublock), rebuilt every day. Xenon downloads them from here once a day,
+and uses them only if `manifest.json.sig` is a valid signature of `manifest.json` by Xenon's key.
 
-Everything outside `.gitea/` is generated: the workflow in `.gitea/workflows/update.yml` rewrites it every day at
+Everything outside `.github/` is generated: the workflow in `.github/workflows/update.yml` rewrites it every day at
 05:17 UTC. Its source is `Meta/ci/filter-lists-workflow.yml` in Xenon, and `Documentation/FilterListUpdates.md` there
 describes the format.
 
