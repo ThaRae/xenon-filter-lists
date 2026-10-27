@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 05:24 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1532 of 1813 upstream filters, as 1681 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1533 of 1814 upstream filters, as 1682 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||google-analytics.com/analytics.js$script,xhr,redirect=google-analytics_analytics.js:5
@@ -1625,6 +1625,7 @@ oklivetv.com##+js(no-fetch-if, method:POST body:tracker)
 ||proxyhog.com^
 ||bol.com/rs/v*/batch|
 bol.com##+js(json-edit-fetch-request, $[?.operationName=="sendExperimentMeasurementReferences"].*, propsToMatch, /graphql)
+||tarnkappe.info/matABC.js
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p
 /adsensebase.js$script

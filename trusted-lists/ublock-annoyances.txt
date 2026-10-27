@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 05:24 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3483 of 3540 upstream filters, as 3480 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3489 of 3546 upstream filters, as 3486 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -961,6 +961,12 @@ radnuk.com.ua##+js(set, document.oncopy, undefined)
 radnuk.com.ua##+js(ra, oncopy, .articles-content[oncopy], complete)
 kaembed.*,mfw09.org,streamingunity.*,vixcloud.*##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 movy.sx##+js(prevent-addEventListener, contextmenu)
+jagledam.com##+js(aeld, contextmenu)
+jagledam.com##+js(set, document.oncontextmenu, null)
+jagledam.com##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aeld, contextmenu)
+vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aopr, HTMLElement.prototype.oncontextmenu)
+b98.tv,supercartoons.net,funniermoments.net,toontales.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container

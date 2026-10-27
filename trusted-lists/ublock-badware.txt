@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/badware.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 05:24 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 4703 of 4983 upstream filters, as 4695 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 4704 of 4984 upstream filters, as 4696 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||01net.com/telecharger/$doc
@@ -2942,6 +2942,7 @@ darumasushiantofagasta.cl##+js(aost, Function, /bxslider|wow/)
 ##html[data-page="macos-download"] > body[data-platform="macos"] > .app_wrap
 ||r2.dev/Verifyd1.html$doc
 r2.dev##body > .main-wrapper > .main-content:has(> #checkbox-window.checkbox-window)
+##div.grid[aria-hidden="true"]:not([id]):not([style]) + main:not([class]):not([id]):not([style]) ~ div[style="position: fixed; inset: 0px; z-index: 2147483647;"]:not([class]):not([id])
 ||cracksway.com^$all
 ||gamingdebates.com^$all
 ||bonzi.link^$all
