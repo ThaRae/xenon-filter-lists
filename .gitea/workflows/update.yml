@@ -12,6 +12,10 @@ on:
   schedule:
     - cron: "17 5 * * *"
   workflow_dispatch:
+    inputs:
+      xenon_ref:
+        description: The Xenon branch to build with, to try changes to the lists or this workflow before they're on main
+        default: main
 
 concurrency:
   group: update
@@ -31,12 +35,15 @@ jobs:
       - name: Check out Xenon and xenon-ublock
         env:
           XENON_READ_TOKEN: ${{ secrets.XENON_READ_TOKEN }}
+          XENON_REF: ${{ inputs.xenon_ref || 'main' }}
         run: |
           auth=$(printf 'tharae:%s' "$XENON_READ_TOKEN" | base64 -w0)
           for repository in Xenon xenon-ublock; do
-            git -c http.extraHeader="Authorization: Basic $auth" clone -q --depth 1 \
+            ref=main
+            [[ $repository == Xenon ]] && ref=$XENON_REF
+            git -c http.extraHeader="Authorization: Basic $auth" clone -q --depth 1 --branch "$ref" \
               "https://git.avx512.dev/tharae/$repository.git" ".build/$repository"
-            echo "$repository $(git -C ".build/$repository" rev-parse --short HEAD)"
+            echo "$repository $ref $(git -C ".build/$repository" rev-parse --short HEAD)"
           done
 
       - name: Install the converter's tools
