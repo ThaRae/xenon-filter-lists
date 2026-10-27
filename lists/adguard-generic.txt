@@ -2,8 +2,8 @@
 ! Source: https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt
 ! Homepage: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
 ! License: GPL-3.0 (https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 03:13 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 53754 of 54605 upstream filters, as 54199 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-27 05:24 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 53752 of 54603 upstream filters, as 54197 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||thoroughgear.com^
@@ -16162,8 +16162,6 @@ temporarymail.com##+js(set-constant, adsRunningNew, noopFunc)
 85tube.com##+js(set-constant, flashvars.protect_block, '')
 85tube.com#@#.ads-iframe
 @@||85tube.com/player/player_ads.html
-pclicious.net###quads-myModal
-pclicious.net##+js(set-constant, wpquads_adblocker_check_2, true)
 @@||link1s.com/wp-banners.js
 theluckygene.com##+js(remove-attr, value, input#poh[value])
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=theluckygene.com
@@ -46963,7 +46961,7 @@ showsport-tv.com##body > div[id*="_overlay"]
 livestreamz.net##.lives-before-content
 slickdeals.net###logoarea
 slickdeals.net##div[id^="crt-adblock"]
-findaudiobook.com,pclicious.net,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
+findaudiobook.com,katmoviehd.*,nhlstream.net,nbastream.net###sidebar > #text-3
 nbastream.net##a[href^="http://v2.nflpass.net/register/"]
 nbastream.net##a[href^="http://www.sportyplay.com/"]
 nhlstream.net,nbastream.net##a[href="/watch-live/"]
