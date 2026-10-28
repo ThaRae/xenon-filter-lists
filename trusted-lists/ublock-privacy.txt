@@ -2,7 +2,7 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Converted by xenon-ublock on 2026-10-28 11:23 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
 ! Kept 1533 of 1814 upstream filters, as 1682 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
@@ -142,7 +142,7 @@ tacobell.com##+js(set, bmak.js_post, false)
 ||mynewsmedia.co/*/Linkpage/ads_stats_controller.php
 ||gplinks.co/Auth/ads_stats_controller.php
 ||videovard.*/api/front/view^$xhr,important
-endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST)
+endbasic.dev##+js(no-xhr-if, method:POST)
 ||b90.yahoo.co.jp^
 ||jsdelivr.net^*/fp.min.js$script,redirect=fingerprint3.js:10
 /log/*$xhr,domain=vizcloud.app|vizcloud.biz|vizcloud.br|vizcloud.cc|vizcloud.club|vizcloud.co|vizcloud.co.uk|vizcloud.com|vizcloud.com.br|vizcloud.com.tr|vizcloud.de|vizcloud.es|vizcloud.fr|vizcloud.in|vizcloud.info|vizcloud.io|vizcloud.it|vizcloud.live|vizcloud.me|vizcloud.net|vizcloud.nl|vizcloud.online|vizcloud.org|vizcloud.pl|vizcloud.pro|vizcloud.ru|vizcloud.site|vizcloud.to|vizcloud.top|vizcloud.tv|vizcloud.uk|vizcloud.us|vizcloud.ws|vizcloud.xyz|vizcloud2.app|vizcloud2.biz|vizcloud2.br|vizcloud2.cc|vizcloud2.club|vizcloud2.co|vizcloud2.co.uk|vizcloud2.com|vizcloud2.com.br|vizcloud2.com.tr|vizcloud2.de|vizcloud2.es|vizcloud2.fr|vizcloud2.in|vizcloud2.info|vizcloud2.io|vizcloud2.it|vizcloud2.live|vizcloud2.me|vizcloud2.net|vizcloud2.nl|vizcloud2.online|vizcloud2.org|vizcloud2.pl|vizcloud2.pro|vizcloud2.ru|vizcloud2.site|vizcloud2.to|vizcloud2.top|vizcloud2.tv|vizcloud2.uk|vizcloud2.us|vizcloud2.ws|vizcloud2.xyz

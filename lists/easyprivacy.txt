@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56388 of 56392 upstream filters, as 56386 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-28 11:23 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56390 of 56394 upstream filters, as 56388 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -7696,6 +7696,7 @@ omni.soundestlink.com$image
 ||gripcorn.com^
 ||grocerycrew.com^
 ||grocerydog.com^
+||groglog.com^
 ||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
@@ -12369,6 +12370,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paramount.tech/lookup/
 ||parkwhiz.com/events/
 ||parsely.com/keys/$script,third-party
+||parsely.com/plogger/
 ||partner.awscconsumerinfo.autotrader.com/accdab/beacon/
 ||partners.etoro.com^$script
 ||patreon.com/api/tracking

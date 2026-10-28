@@ -2,7 +2,7 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-27 20:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Converted by xenon-ublock on 2026-10-28 11:23 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
 ! Kept 3489 of 3546 upstream filters, as 3486 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
@@ -3485,7 +3485,7 @@ firestream.to##+js(set, console.log, trueFunc)
 investidor10.com.br##+js(trusted-set-local-storage-item, guest_user_banner_aon_closed, $now$)
 snowcrows.com##+js(rmnt, script, .onerror)
 dokkandb.com##+js(trusted-set-local-storage-item, adBlockPromptDismissedAt, $now$)
-streamdumpling.cyou,flixdrop.cyou##+js(trusted-click-element, button#b, '', 750)
+streamdumpling.cyou,flixdrop.cyou##+js(trusted-click-element, button#b, '', 1750)
 flixdrop.cyou##+js(rmnt, script, location.pathname, includes, hv=)
 alensat.com##+js(aeld, contextmenu, preventDefault)
 firestream.site##+js(set, console.clear, trueFunc)
