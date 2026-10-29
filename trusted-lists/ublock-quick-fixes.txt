@@ -2,7 +2,7 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-28 11:23 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Converted by xenon-ublock on 2026-10-29 11:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
 ! Kept 438 of 461 upstream filters, as 441 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
@@ -167,7 +167,7 @@ gledaitv.*##+js(set, scriptBlocked, false)
 gledaitv.*##+js(set, blocked, false)
 gledaitv.*##+js(set, testUrls, [])
 gledaitv.*##+js(nostif, adblock)
-bg-gledai.video,gledaitv.*###gledai-access-notice
+bg-gledai.video,gledaitv.*###gledai-warning-notice
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bg-gledai.video,redirect=google-ima.js
 ||viads.com^$script,domain=bg-gledai.video,redirect=noopjs
 @@||ads.*.js|$script,3p,domain=seirsanduk.app|seirsanduk.biz|seirsanduk.br|seirsanduk.cc|seirsanduk.club|seirsanduk.co|seirsanduk.co.uk|seirsanduk.com|seirsanduk.com.br|seirsanduk.com.tr|seirsanduk.de|seirsanduk.es|seirsanduk.fr|seirsanduk.in|seirsanduk.info|seirsanduk.io|seirsanduk.it|seirsanduk.live|seirsanduk.me|seirsanduk.net|seirsanduk.nl|seirsanduk.online|seirsanduk.org|seirsanduk.pl|seirsanduk.pro|seirsanduk.ru|seirsanduk.site|seirsanduk.to|seirsanduk.top|seirsanduk.tv|seirsanduk.uk|seirsanduk.us|seirsanduk.ws|seirsanduk.xyz|seir-sanduk.com
@@ -263,7 +263,7 @@ streamcash.to##+js(prevent-innerHTML, div, 2147483647;)
 ||mjzeexubcswjka.com^
 ||uijarxbm.com^
 decompiler.com##+js(set, OffscreenCanvas.prototype.getContext, undefined)
-decompiler.com##+js(nosiif, === false)
+decompiler.com##+js(aost, Image, .js)
 decompiler.com##+js(aost, Element.prototype.removeChild, /blocked|tick/)
 twitch.tv##.stream-display-ad__wrapper + div > div[style^="position:"] > div[class^="Layout-sc-"]:has(video[src^="https://m.media-amazon.com"])
 twitch.tv##.chat-shell > div[class^="Layout-sc-"]  > div[style^="transition:"]:has(video[src^="https://m.media-amazon.com"])

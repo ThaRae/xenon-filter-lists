@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-28 11:23 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3489 of 3546 upstream filters, as 3486 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-29 11:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3493 of 3550 upstream filters, as 3490 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -966,7 +966,7 @@ jagledam.com##+js(set, document.oncontextmenu, null)
 jagledam.com##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aeld, contextmenu)
 vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aopr, HTMLElement.prototype.oncontextmenu)
-b98.tv,supercartoons.net,funniermoments.net,toontales.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+b98.tv,supercartoons.net,funniermoments.net,toontales.net,megacartoons.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container
@@ -990,7 +990,7 @@ tides.net##+js(nostif, adsbygoogle)
 abcya.com##.modal-overlay.wrapper
 abcya.com##body:style(overflow: auto !important)
 abcya.com##.a-adhesion
-||2game.info/ad/failed_ad_view.js
+2game.info##div[id][style^="position: fixed; left: 0px; right: 0px; bottom: 0px; z-index: 2147483646;"]
 studydrive.net##.w-full.flex:has(> div[id^="billboard_btf"])
 videohelp.com###topmenu:has(> .contentlink[href="https://www.videohelp.com/donate"])
 /invoke.js^$script,3p,domain=asiaflix.net,redirect=noopjs
@@ -1038,6 +1038,9 @@ forums.hfboards.com,forums.sherdog.com,inquirer.com,royaleapi.com,tapology.com,t
 vsco.co##+js(set-local-storage-item, /^fs\./, $remove$)
 addictinggames.com,ev.io,fantasyfootballscout.co.uk,gameknot.com,icy-veins.com,plan.livefpl.net,pocketgamer.com,poe-vault.com,probuildstats.com,thesimsresource.com,tracklock.gg,u.gg##+js(rmnt, script, reviveScroll, excludes, self.__next)
 ftbucket.info###adblock-banner
+tftacademy.com##div[class="relative"][style="width: 160px; height: 600px;"]
+tftacademy.com##div.relative.flex.w-full.font-semibold[style^="height:"]:has(> div.relative[style^="width:"][style*="height:"])
+lesoleil.com##.leader-board-container
 ||holyclock.com^$3p
 ||shomershabes.com^$3p
 ||shomershabes.co.il^$3p
@@ -3492,3 +3495,4 @@ firestream.site##+js(set, console.clear, trueFunc)
 firestream.site##+js(set, console.log, trueFunc)
 firestream.site##+js(set, console.table, trueFunc)
 firestream.site##+js(aeld, keydown, ||_0x)
+||thehindu.com/assets/deferred.min.js
