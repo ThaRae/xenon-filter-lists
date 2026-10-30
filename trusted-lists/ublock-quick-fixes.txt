@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-29 11:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 438 of 461 upstream filters, as 441 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 442 of 465 upstream filters, as 445 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 @@||hb.vntsm.com/v4/live/vms/sites/aternos.org/index.js$script,domain=aternos.org
@@ -83,12 +83,12 @@ web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.proto
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.insertAdjacentElement, XMLHttpRequest.prototype)
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.prepend, Object.getOwnPropertyDescriptor)
 web.facebook.com,www.facebook.com##+js(trusted-prevent-dom-bypass, Element.prototype.prepend, XMLHttpRequest.prototype)
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=ashleyhardat.com,important
-ashleyhardat.com##+js(nowoif)
-ashleyhardat.com##+js(set, console.clear, undefined)
-ashleyhardat.com##+js(acs, globalThis, break;case)
-ashleyhardat.com##+js(acs, WebAssembly, atob)
-||ashleyhardat.com^$badfilter
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,redirect=google-ima.js,domain=shanelocaldog.com,important
+shanelocaldog.com##+js(nowoif)
+shanelocaldog.com##+js(set, console.clear, undefined)
+shanelocaldog.com##+js(acs, globalThis, break;case)
+shanelocaldog.com##+js(acs, WebAssembly, atob)
+||shanelocaldog.com^$badfilter
 @@||pagead2.googlesyndication.com^$script,domain=next-episode.net
 *$image,redirect-rule=1x1.gif,domain=japscan.app|japscan.biz|japscan.br|japscan.cc|japscan.club|japscan.co|japscan.co.uk|japscan.com|japscan.com.br|japscan.com.tr|japscan.de|japscan.es|japscan.fr|japscan.in|japscan.info|japscan.io|japscan.it|japscan.live|japscan.lol|japscan.me|japscan.net|japscan.nl|japscan.online|japscan.org|japscan.pl|japscan.pro|japscan.ru|japscan.site|japscan.to|japscan.top|japscan.tv|japscan.uk|japscan.us|japscan.ws|japscan.xyz
 *$script,redirect-rule=noop.js,domain=japscan.app|japscan.biz|japscan.br|japscan.cc|japscan.club|japscan.co|japscan.co.uk|japscan.com|japscan.com.br|japscan.com.tr|japscan.de|japscan.es|japscan.fr|japscan.in|japscan.info|japscan.io|japscan.it|japscan.live|japscan.lol|japscan.me|japscan.net|japscan.nl|japscan.online|japscan.org|japscan.pl|japscan.pro|japscan.ru|japscan.site|japscan.to|japscan.top|japscan.tv|japscan.uk|japscan.us|japscan.ws|japscan.xyz
@@ -167,7 +167,11 @@ gledaitv.*##+js(set, scriptBlocked, false)
 gledaitv.*##+js(set, blocked, false)
 gledaitv.*##+js(set, testUrls, [])
 gledaitv.*##+js(nostif, adblock)
-bg-gledai.video,gledaitv.*###gledai-warning-notice
+bg-gledai.video,gledaitv.*##+js(aopr, idiotHandlers)
+bg-gledai.video,gledaitv.*##+js(acs, document.createElement, ad-detection-bait)
+bg-gledai.video,gledaitv.*###gledai-block-notice
+bg-gledai.video,gledaitv.*##[id^="gledai-"][id$="-notice"]
+bg-gledai.video,gledaitv.*##[class*="gledai-"][class*="notice"]
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bg-gledai.video,redirect=google-ima.js
 ||viads.com^$script,domain=bg-gledai.video,redirect=noopjs
 @@||ads.*.js|$script,3p,domain=seirsanduk.app|seirsanduk.biz|seirsanduk.br|seirsanduk.cc|seirsanduk.club|seirsanduk.co|seirsanduk.co.uk|seirsanduk.com|seirsanduk.com.br|seirsanduk.com.tr|seirsanduk.de|seirsanduk.es|seirsanduk.fr|seirsanduk.in|seirsanduk.info|seirsanduk.io|seirsanduk.it|seirsanduk.live|seirsanduk.me|seirsanduk.net|seirsanduk.nl|seirsanduk.online|seirsanduk.org|seirsanduk.pl|seirsanduk.pro|seirsanduk.ru|seirsanduk.site|seirsanduk.to|seirsanduk.top|seirsanduk.tv|seirsanduk.uk|seirsanduk.us|seirsanduk.ws|seirsanduk.xyz|seir-sanduk.com
@@ -259,7 +263,7 @@ streamcash.to##+js(set, Element.prototype.attachShadow, noopFunc)
 streamcash.to##a[rel*="sp0nsored"]:upward(1)
 streamcash.to##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"])
 streamcash.to##div.video-js:style(z-index:2147483647 !important)
-streamcash.to##+js(prevent-innerHTML, div, 2147483647;)
+streamcash.to##style:has-text(2147483647):remove()
 ||mjzeexubcswjka.com^
 ||uijarxbm.com^
 decompiler.com##+js(set, OffscreenCanvas.prototype.getContext, undefined)

@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-29 11:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3493 of 3550 upstream filters, as 3490 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3496 of 3553 upstream filters, as 3493 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -967,6 +967,9 @@ jagledam.com##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aeld, contextmenu)
 vidara.*,gasobni.com,vidmoly.*,bysezejataos.com,n1mwq.org,firestream.*##+js(aopr, HTMLElement.prototype.oncontextmenu)
 b98.tv,supercartoons.net,funniermoments.net,toontales.net,megacartoons.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+fileditchvids.st##+js(aeld, contextmenu)
+fiio.com##+js(aeld, /dragstart|selectstart|touchstart|mouse/, , elements, .w-slide)
+fiio.com##.w-slide div[ctype="text"]:style(cursor: auto !important; height: auto !important;)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container

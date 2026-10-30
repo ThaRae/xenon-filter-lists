@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-29 11:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6060 of 6060 upstream filters, as 6059 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6062 of 6062 upstream filters, as 6061 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -3421,6 +3421,7 @@ igeeksblog.com##.quick-tips
 independent.ie##.quick_subscribe
 allthatsinteresting.com##.r-klde5a.r-1awozwy.css-175oi2r
 prdaily.com##.ragansdaily
+designboom.com##.rail--nlsticky
 theparisreview.org##.rail-enews
 news.osu.edu##.raw-html-embed
 oregonlive.com##.rawhtml
@@ -4191,6 +4192,7 @@ calgaryherald.com,edmontonjournal.com,montrealgazette.com,ottawacitizen.com,thes
 chaser.com.au##.is-layout-constrained.sticky-sidebar:has-text(The Chaser Weakly)
 cheknews.ca##div.wp-block-cover:has-text(Be the first to know)
 christiantoday.com##.p-3.border-0:has-text(Stay up to date)
+chron.com##.mb32.sy32:has-text(free newsletter)
 chron.com,sfgate.com##.col1span3:has-text(Newsletters)
 cjr.org##.row > .entry-content > p:has-text(daily newsletter)
 cknxnewstoday.ca##.widgets_widgetWrapper__XqJPi:has-text(Join our community)
