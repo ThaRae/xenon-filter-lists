@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 442 of 465 upstream filters, as 445 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 447 of 470 upstream filters, as 450 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 @@||hb.vntsm.com/v4/live/vms/sites/aternos.org/index.js$script,domain=aternos.org
@@ -23,6 +23,7 @@ www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.createCo
 www.youtube.com##+js(nano-stb, [native code], 17000, 0.001)
 www.youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.adSlots, , propsToMatch, /\/player(\?|$)/)
 www.youtube.com##+js(json-prune-fetch-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
+m.youtube.com,www.youtube.com,www.youtube-nocookie.com##+js(json-prune-fetch-response, endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.playerAds endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.adPlacements endpoint.watchEndpoint.unserializedPrefetchData.playerResponse.adSlots, , propsToMatch, /resolve_url?)
 www.youtube.com##+js(json-prune-xhr-response, adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.adSlots, , propsToMatch, /\/player(?:\?.+)?$/)
 tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
@@ -50,7 +51,6 @@ web.facebook.com,www.facebook.com##div[role="complementary"] div[data-visualcomp
 web.facebook.com,www.facebook.com##div[role="complementary"] a[attributionsrc][href^="http"][target="_blank"][role="link"][rel*="noreferrer"]:has(img[src])
 web.facebook.com,www.facebook.com##div[role="complementary"] h3 span[style^="-webkit-box-orient:vertical"]:has-text(/^Sponsored$/)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id)
-web.facebook.com,www.facebook.com##+js(json-edit, ..node[?.*.__typename=="SponsoredData"])
 web.facebook.com,www.facebook.com##+js(json-edit, ..nodes.*[?.sponsored_data])
 web.facebook.com,www.facebook.com##+js(jsonl-edit-xhr-response, .data[?.category=="SPONSORED"].node, propsToMatch, /graphql)
 web.facebook.com,www.facebook.com##+js(jsonl-edit-xhr-response, ..node[?.*.__typename=="SponsoredData"], propsToMatch, /graphql)
@@ -131,6 +131,7 @@ u26bekrb.fun##+js(set, adBlockDetected, undefined)
 ||xpobbwxzhe-l.site^$popup,doc
 dogdrip.net##html[lang="ko"] [id^="img_"][style]:has(iframe[frameborder="0"][style]):style(clip-path: circle(0) !important;)
 smsonline.cloud##html[data-theme][lang] [id^="img_"][style]:has(iframe[frameborder="0"][style]):style(clip-path: circle(0) !important;)
+~bing.com,~dogdrip.net,~smsonline.cloud##.impfy-player
 ~bing.com,~dogdrip.net,~smsonline.cloud##div[style^="height:    250px; width:    300px;"]
 ~bing.com,~dogdrip.net,~smsonline.cloud##div[style^="width:    160px; height:    600px; margin: 0px auto; min-width: 160px; min-height: 600px;"]
 ~bing.com,~dogdrip.net,~smsonline.cloud##div[style^="width:    300px; height:    250px;"]
@@ -157,8 +158,8 @@ bing.com##+js(trusted-replace-node-text, script, function processEmbImg, 'locati
 bing.com##ol#b_results > li.b_algo:has(> .b_title > h2 > a[id][ads])
 bing.com##ol#b_results > li:has(> :is(.b_tpcn, .b_title, h2) a[href^="https://www.bing.com/aclk?"])
 bing.com##ol#b_results > li.b_algo:has(.b_lineclamp3:matches-css-before(content:/^url\(\Sdata:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD.AAAA/))
-@@*$image,xhr,domain=bg-gledai.app|bg-gledai.biz|bg-gledai.br|bg-gledai.cc|bg-gledai.club|bg-gledai.co|bg-gledai.co.uk|bg-gledai.com|bg-gledai.com.br|bg-gledai.com.tr|bg-gledai.de|bg-gledai.es|bg-gledai.fr|bg-gledai.in|bg-gledai.info|bg-gledai.io|bg-gledai.it|bg-gledai.live|bg-gledai.me|bg-gledai.net|bg-gledai.nl|bg-gledai.online|bg-gledai.org|bg-gledai.pl|bg-gledai.pro|bg-gledai.ru|bg-gledai.site|bg-gledai.to|bg-gledai.top|bg-gledai.tv|bg-gledai.uk|bg-gledai.us|bg-gledai.video|bg-gledai.ws|bg-gledai.xyz|gledaitv.app|gledaitv.biz|gledaitv.br|gledaitv.cc|gledaitv.club|gledaitv.co|gledaitv.co.uk|gledaitv.com|gledaitv.com.br|gledaitv.com.tr|gledaitv.de|gledaitv.es|gledaitv.fan|gledaitv.fr|gledaitv.in|gledaitv.info|gledaitv.io|gledaitv.it|gledaitv.live|gledaitv.me|gledaitv.net|gledaitv.nl|gledaitv.online|gledaitv.org|gledaitv.pl|gledaitv.pro|gledaitv.ru|gledaitv.site|gledaitv.to|gledaitv.top|gledaitv.tv|gledaitv.uk|gledaitv.us|gledaitv.ws|gledaitv.xyz
-@@*$ghide,domain=bg-gledai.app|bg-gledai.biz|bg-gledai.br|bg-gledai.cc|bg-gledai.club|bg-gledai.co|bg-gledai.co.uk|bg-gledai.com|bg-gledai.com.br|bg-gledai.com.tr|bg-gledai.de|bg-gledai.es|bg-gledai.fr|bg-gledai.in|bg-gledai.info|bg-gledai.io|bg-gledai.it|bg-gledai.live|bg-gledai.me|bg-gledai.net|bg-gledai.nl|bg-gledai.online|bg-gledai.org|bg-gledai.pl|bg-gledai.pro|bg-gledai.ru|bg-gledai.site|bg-gledai.to|bg-gledai.top|bg-gledai.tv|bg-gledai.uk|bg-gledai.us|bg-gledai.video|bg-gledai.ws|bg-gledai.xyz|gledaitv.app|gledaitv.biz|gledaitv.br|gledaitv.cc|gledaitv.club|gledaitv.co|gledaitv.co.uk|gledaitv.com|gledaitv.com.br|gledaitv.com.tr|gledaitv.de|gledaitv.es|gledaitv.fan|gledaitv.fr|gledaitv.in|gledaitv.info|gledaitv.io|gledaitv.it|gledaitv.live|gledaitv.me|gledaitv.net|gledaitv.nl|gledaitv.online|gledaitv.org|gledaitv.pl|gledaitv.pro|gledaitv.ru|gledaitv.site|gledaitv.to|gledaitv.top|gledaitv.tv|gledaitv.uk|gledaitv.us|gledaitv.ws|gledaitv.xyz
+@@*$image,xhr,domain=bg-gledai.app|bg-gledai.biz|bg-gledai.br|bg-gledai.cc|bg-gledai.club|bg-gledai.co|bg-gledai.co.uk|bg-gledai.com|bg-gledai.com.br|bg-gledai.com.tr|bg-gledai.de|bg-gledai.es|bg-gledai.fr|bg-gledai.in|bg-gledai.info|bg-gledai.io|bg-gledai.it|bg-gledai.live|bg-gledai.me|bg-gledai.net|bg-gledai.nl|bg-gledai.online|bg-gledai.org|bg-gledai.pl|bg-gledai.pro|bg-gledai.ru|bg-gledai.site|bg-gledai.to|bg-gledai.top|bg-gledai.tv|bg-gledai.uk|bg-gledai.us|bg-gledai.video|bg-gledai.ws|bg-gledai.xyz|gledaitv.app|gledaitv.biz|gledaitv.br|gledaitv.cc|gledaitv.club|gledaitv.co|gledaitv.co.uk|gledaitv.com|gledaitv.com.br|gledaitv.com.tr|gledaitv.de|gledaitv.es|gledaitv.fan|gledaitv.fr|gledaitv.in|gledaitv.info|gledaitv.io|gledaitv.it|gledaitv.live|gledaitv.me|gledaitv.net|gledaitv.nl|gledaitv.online|gledaitv.org|gledaitv.pl|gledaitv.pro|gledaitv.ru|gledaitv.site|gledaitv.to|gledaitv.top|gledaitv.tv|gledaitv.uk|gledaitv.us|gledaitv.ws|gledaitv.xyz|cdn.gledaitv.app|cdn.gledaitv.biz|cdn.gledaitv.br|cdn.gledaitv.cc|cdn.gledaitv.club|cdn.gledaitv.co|cdn.gledaitv.co.uk|cdn.gledaitv.com|cdn.gledaitv.com.br|cdn.gledaitv.com.tr|cdn.gledaitv.de|cdn.gledaitv.es|cdn.gledaitv.fan|cdn.gledaitv.fr|cdn.gledaitv.in|cdn.gledaitv.info|cdn.gledaitv.io|cdn.gledaitv.it|cdn.gledaitv.live|cdn.gledaitv.me|cdn.gledaitv.net|cdn.gledaitv.nl|cdn.gledaitv.online|cdn.gledaitv.org|cdn.gledaitv.pl|cdn.gledaitv.pro|cdn.gledaitv.ru|cdn.gledaitv.site|cdn.gledaitv.to|cdn.gledaitv.top|cdn.gledaitv.tv|cdn.gledaitv.uk|cdn.gledaitv.us|cdn.gledaitv.ws|cdn.gledaitv.xyz
+@@*$ghide,domain=bg-gledai.app|bg-gledai.biz|bg-gledai.br|bg-gledai.cc|bg-gledai.club|bg-gledai.co|bg-gledai.co.uk|bg-gledai.com|bg-gledai.com.br|bg-gledai.com.tr|bg-gledai.de|bg-gledai.es|bg-gledai.fr|bg-gledai.in|bg-gledai.info|bg-gledai.io|bg-gledai.it|bg-gledai.live|bg-gledai.me|bg-gledai.net|bg-gledai.nl|bg-gledai.online|bg-gledai.org|bg-gledai.pl|bg-gledai.pro|bg-gledai.ru|bg-gledai.site|bg-gledai.to|bg-gledai.top|bg-gledai.tv|bg-gledai.uk|bg-gledai.us|bg-gledai.video|bg-gledai.ws|bg-gledai.xyz|gledaitv.app|gledaitv.biz|gledaitv.br|gledaitv.cc|gledaitv.club|gledaitv.co|gledaitv.co.uk|gledaitv.com|gledaitv.com.br|gledaitv.com.tr|gledaitv.de|gledaitv.es|gledaitv.fan|gledaitv.fr|gledaitv.in|gledaitv.info|gledaitv.io|gledaitv.it|gledaitv.live|gledaitv.me|gledaitv.net|gledaitv.nl|gledaitv.online|gledaitv.org|gledaitv.pl|gledaitv.pro|gledaitv.ru|gledaitv.site|gledaitv.to|gledaitv.top|gledaitv.tv|gledaitv.uk|gledaitv.us|gledaitv.ws|gledaitv.xyz|cdn.gledaitv.app|cdn.gledaitv.biz|cdn.gledaitv.br|cdn.gledaitv.cc|cdn.gledaitv.club|cdn.gledaitv.co|cdn.gledaitv.co.uk|cdn.gledaitv.com|cdn.gledaitv.com.br|cdn.gledaitv.com.tr|cdn.gledaitv.de|cdn.gledaitv.es|cdn.gledaitv.fan|cdn.gledaitv.fr|cdn.gledaitv.in|cdn.gledaitv.info|cdn.gledaitv.io|cdn.gledaitv.it|cdn.gledaitv.live|cdn.gledaitv.me|cdn.gledaitv.net|cdn.gledaitv.nl|cdn.gledaitv.online|cdn.gledaitv.org|cdn.gledaitv.pl|cdn.gledaitv.pro|cdn.gledaitv.ru|cdn.gledaitv.site|cdn.gledaitv.to|cdn.gledaitv.top|cdn.gledaitv.tv|cdn.gledaitv.uk|cdn.gledaitv.us|cdn.gledaitv.ws|cdn.gledaitv.xyz
 @@||pagead2.googlesyndication.com^$script,domain=bg-gledai.app|bg-gledai.biz|bg-gledai.br|bg-gledai.cc|bg-gledai.club|bg-gledai.co|bg-gledai.co.uk|bg-gledai.com|bg-gledai.com.br|bg-gledai.com.tr|bg-gledai.de|bg-gledai.es|bg-gledai.fr|bg-gledai.in|bg-gledai.info|bg-gledai.io|bg-gledai.it|bg-gledai.live|bg-gledai.me|bg-gledai.net|bg-gledai.nl|bg-gledai.online|bg-gledai.org|bg-gledai.pl|bg-gledai.pro|bg-gledai.ru|bg-gledai.site|bg-gledai.to|bg-gledai.top|bg-gledai.tv|bg-gledai.uk|bg-gledai.us|bg-gledai.video|bg-gledai.ws|bg-gledai.xyz|gledaitv.app|gledaitv.biz|gledaitv.br|gledaitv.cc|gledaitv.club|gledaitv.co|gledaitv.co.uk|gledaitv.com|gledaitv.com.br|gledaitv.com.tr|gledaitv.de|gledaitv.es|gledaitv.fan|gledaitv.fr|gledaitv.in|gledaitv.info|gledaitv.io|gledaitv.it|gledaitv.live|gledaitv.me|gledaitv.net|gledaitv.nl|gledaitv.online|gledaitv.org|gledaitv.pl|gledaitv.pro|gledaitv.ru|gledaitv.site|gledaitv.to|gledaitv.top|gledaitv.tv|gledaitv.uk|gledaitv.us|gledaitv.ws|gledaitv.xyz
 gledaitv.*###ad-overlay:remove()
 gledaitv.*##+js(trusted-replace-argument, document.getElementById, 0, json:"body", condition, ad-detection-bait)
@@ -167,11 +168,15 @@ gledaitv.*##+js(set, scriptBlocked, false)
 gledaitv.*##+js(set, blocked, false)
 gledaitv.*##+js(set, testUrls, [])
 gledaitv.*##+js(nostif, adblock)
-bg-gledai.video,gledaitv.*##+js(aopr, idiotHandlers)
-bg-gledai.video,gledaitv.*##+js(acs, document.createElement, ad-detection-bait)
-bg-gledai.video,gledaitv.*###gledai-block-notice
-bg-gledai.video,gledaitv.*##[id^="gledai-"][id$="-notice"]
-bg-gledai.video,gledaitv.*##[class*="gledai-"][class*="notice"]
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##+js(aopr, Handlers)
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##+js(aopr, idiotHelper)
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##+js(aopr, idiotHandlers)
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##+js(acs, document.createElement, detection-bait)
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##:is([id*="access"],[id*="warning"],[id*="gledai"],[class*="access"],[class*="warning"],[class*="gledai"])
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##[id="noob-detection-bait"]:style(display:block!important;height:1px!important;width:1px!important;visibility:visible!important)
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*###stop-drundrun:remove()
+bg-gledai.video,gledaitv.*,cdn.gledaitv.*##.stop-drundrun:remove()
+||cdn.adapex.io/hb/aaw.gledaifan.js$script,redirect=noop.js,domain=cdn.gledaitv.fan
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bg-gledai.video,redirect=google-ima.js
 ||viads.com^$script,domain=bg-gledai.video,redirect=noopjs
 @@||ads.*.js|$script,3p,domain=seirsanduk.app|seirsanduk.biz|seirsanduk.br|seirsanduk.cc|seirsanduk.club|seirsanduk.co|seirsanduk.co.uk|seirsanduk.com|seirsanduk.com.br|seirsanduk.com.tr|seirsanduk.de|seirsanduk.es|seirsanduk.fr|seirsanduk.in|seirsanduk.info|seirsanduk.io|seirsanduk.it|seirsanduk.live|seirsanduk.me|seirsanduk.net|seirsanduk.nl|seirsanduk.online|seirsanduk.org|seirsanduk.pl|seirsanduk.pro|seirsanduk.ru|seirsanduk.site|seirsanduk.to|seirsanduk.top|seirsanduk.tv|seirsanduk.uk|seirsanduk.us|seirsanduk.ws|seirsanduk.xyz|seir-sanduk.com

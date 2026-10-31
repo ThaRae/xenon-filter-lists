@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6062 of 6062 upstream filters, as 6061 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6067 of 6067 upstream filters, as 6066 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -3410,6 +3410,7 @@ polygon.com##.promotion-offer-box
 simpurelife.com##.proof-factor-app
 slate.com##.prudie-google-form
 cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,planetfootball.com,planetrugby.com,teamtalk.com,tennis365.com##.ps-email-subscription
+pridesource.com##.psnl
 techrepublic.com##.pt-\[20px\]
 campblessing.org,canaleenergia.com,celebrityaccess.com,eastasiaforum.org,esplanade.hr,flowmountainbike.com,mag.toyota.co.uk##.pum-overlay
 ess-news.com,pv-magazine.com##.pvmagazine-newsletter-block
@@ -4155,6 +4156,7 @@ eposaudio.com##.grid__item:has(> .newsletter-sign-up)
 tryterra.co##.lg\:px-24:has(#email-container)
 thehill.com##.menu-item:has(> [data-link-label="Newsletters"])
 emobilityplus.com##.sharedaddy
+pridesource.com##.sub:has(> .psnl)
 hyrax.dev##.w-full.lg\:max-w-sm.lg\:text-right:has(#newsletter-email-hero)
 androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hotcars.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.w-promotion-offer:has(.newsletter-promotion-large)
 polygon.com##[class]:has(> .duet--cta--newsletter)
@@ -4407,7 +4409,7 @@ altreconomia.it,coxautoinc.com,destructoid.com,dezeen.com,discogs.com,sbs.com.au
 edweek.org,francebleu.fr,telegraaf.nl##.NewsletterForm
 earlybirdbooks.com,openroadmedia.com,theportalist.com##.copyRight-div
 cosmopolitan.fr,marieclaire.fr##.NewsletterBox
-aeplay.org,bitnewsbot.com,dailynewshungary.com,designersbrasileiros.com.br,fosspost.org,justrunlah.com,michaelwest.com.au,nanowerk.com,osxdaily.com,roadiscalling.com,serversfor.dev,upinthesky.nl##.ml-subscribe-form
+aeplay.org,bitnewsbot.com,dailynewshungary.com,designersbrasileiros.com.br,fosspost.org,justrunlah.com,lrt.lt,michaelwest.com.au,nanowerk.com,osxdaily.com,roadiscalling.com,serversfor.dev,techpolicy.press,upinthesky.nl##.ml-subscribe-form
 6sqft.com,alhayat.tv,alquds.co.uk,augustman.com,brighteon.com,cgsociety.org,cityam.com,hagerty.co.uk,healthboards.com,infosecurity-magazine.com,lifestyleasia.com,livejournal.com,news.bg##.subscription
 democracydocket.com,iai.tv,loopchicago.com,loopnet.com,nintendonews.com,piccalil.li,tbn.org##.sign-up
 borsonline.hu,faroutmagazine.co.uk,magyarnemzet.hu,metropol.hu,ripost.hu,thecaterer.com,veol.hu,vg.hu##.subscription-box
@@ -4852,6 +4854,9 @@ afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.co
 afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##div[class*="subscribeDialog-"]
 afterbabel.com,americafirstreport.com,americasvoice.news,antiracismnewsletter.com,aporiamagazine.com,asiasentinel.com,blog.codingconfessions.com,computerenhance.com,construction-physics.com,dkb.blog,dossier.today,duffelblog.com,elysian.press,engineeringleadership.xyz,eugyppius.com,experimental-history.com,flowstate.fm,forkingpaths.co,friendlyatheist.com,fullstackeconomics.com,gamefile.news,garbageday.email,goto10retro.com,hamiltonnolan.com,henrikkarlsson.xyz,honest-broker.com,kunstler.com,latent.space,michaelmoore.com,moreisdifferent.blog,newsletter.banklesshq.com,newsletter.eng-leadership.com,newsletter.maartengrootendorst.com,noahpinion.blog,persuasion.community,piratewires.com,platformer.news,popular.info,publicnotice.co,racket.news,read.perspectiveship.com,sambowman.co,secretsofprivacy.com,semianalysis.com,slowboring.com,statsignificant.com,strangeloopcanon.com,substack.com,techemails.com,theankler.com,thebignewsletter.com,thebulwark.com,theclimatebrink.com,thedebriefnetwork.com,theintrinsicperspective.com,unchartedterritories.tomaspueyo.com,understandingai.org,webworm.co,wonkette.com,zeteo.com##div[class^="background-"]
 thefederalist.com##+js(set-cookie, pum-276000, true)
+techpolicy.press###ml-webforms-popup-6050079
+techpolicy.press##.ml-webforms-popup-overlay
+techpolicy.press##body:style(overflow: auto !important; position: initial !important;)
 niemanlab.org###nlep
 niemanlab.org##body:style(overflow: auto !important; position: initial !important;)
 avclub.com,jezebel.com,pastemagazine.com##+js(set-cookie, pm_email_popup_status, 1)

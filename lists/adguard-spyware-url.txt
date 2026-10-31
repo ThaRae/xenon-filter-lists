@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy-removeparam.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2505 of 2713 upstream filters, as 2595 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2510 of 2718 upstream filters, as 2600 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 $removeparam=pjclid
@@ -303,6 +303,10 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||auto.de^$removeparam=source
+||auto.de^$removeparam=medium
+||auto.de^$removeparam=campaign
+||auto.de^$removeparam=adgroupid
 ||wayground.com^$removeparam=source
 ||bfmtv.com^$removeparam=at_brand
 ||bfmtv.com^$removeparam=at_compte
@@ -371,9 +375,10 @@ $removeparam=fb_source
 ||newsdig.tbs.co.jp^$removeparam=ex_position
 ||newsdig.tbs.co.jp^$removeparam=ex_id
 ||jprime.jp^$removeparam=from
-||ck12.org^$doc,removeparam=referrer
-||ck12.org^$doc,removeparam=_eid
-||ck12.org^$doc,removeparam=_mid
+||ck12.org^$removeparam=refcode
+||ck12.org^$removeparam=referrer
+||ck12.org^$removeparam=_eid
+||ck12.org^$removeparam=_mid
 ||newspicks.com^$removeparam=invoker
 ||khb-tv.co.jp^$removeparam=ro
 ||kab.co.jp^$removeparam=ro

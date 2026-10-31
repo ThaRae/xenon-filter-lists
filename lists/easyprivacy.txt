@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56406 of 56410 upstream filters, as 56404 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56415 of 56419 upstream filters, as 56413 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -3922,6 +3922,7 @@ omni.soundestlink.com$image
 ||turbolion.io^
 ||tvpixel.com^
 ||tw.cx^
+||ubbrobccheck20.cc^
 ||ugdturner.com^
 ||uidapi.com^
 ||uimarketpro.com^
@@ -6866,6 +6867,7 @@ omni.soundestlink.com$image
 ||bestboundary.com^
 ||bestclimbers.net^
 ||bestcoffeemachine.net^
+||bestpriceonly.com^
 ||bestshoesboot.com^
 ||bestsportsbra.com^
 ||betazebra.com^
@@ -7025,6 +7027,7 @@ omni.soundestlink.com$image
 ||cardmethod.com^
 ||cardproducer.com^
 ||carefuldolls.com^
+||cargrasp.com^
 ||caringcast.com^
 ||carloforward.com^
 ||carpoolmatch.com^
@@ -7561,6 +7564,7 @@ omni.soundestlink.com$image
 ||floweryfact.com^
 ||floweryflavor.com^
 ||floweryoperation.com^
+||fluffybirds.com^
 ||flushingbeast.com^
 ||flutteringfireman.com^
 ||flyflightstar.com^
@@ -7759,6 +7763,7 @@ omni.soundestlink.com$image
 ||heycomputers.com^
 ||heyhotshots.com^
 ||hfc195b.com^
+||higherhub.com^
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
 ||highnoongear.com^
@@ -7823,6 +7828,7 @@ omni.soundestlink.com$image
 ||incomehippo.com^
 ||incompetentjoke.com^
 ||inconclusiveaction.com^
+||indscout.com^
 ||infamousstream.com^
 ||infinityhedge.com^
 ||informalbook.com^
@@ -11517,6 +11523,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.mapbox.com^
 ||events.matterport.com^
 ||events.medio.com^
+||events.mics-notrack.com^
 ||events.missena.io^
 ||events.ocdn.eu^
 ||events.paramount.tech^
@@ -15400,6 +15407,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bhphotovideo.com/aperture/shared/js/dataLayer.js
 ||bi.banggood.com^
 ||bicp-analytics.postscript.io^
+||bifrost-api.hotstar.com^
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bing.com/fd/ls/GLinkPing.aspx?
@@ -56290,6 +56298,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp|nexon.com
 @@||navacom.info/count.php?$~third-party
+@@||neruco-search.ec-optimizer.com^$script,domain=i-office1.net
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||onesignal.com/api/v1/sync/$domain=oshibuta.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js

@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1534 of 1815 upstream filters, as 1683 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1535 of 1816 upstream filters, as 1684 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||google-analytics.com/analytics.js$script,xhr,redirect=google-analytics_analytics.js:5
@@ -764,6 +764,7 @@ $removeparam=adsterra_placement_id
 ||x.com^$removeparam=cxt
 ||twitter.com^$removeparam=s
 ||x.com^$removeparam=s
+||x.com/*/status/$doc,removeparam=a
 ||www.ebay.$removeparam=ssspo
 ||www.ebay.$removeparam=sssrc
 ||www.ebay.$removeparam=ssuid
@@ -1583,10 +1584,10 @@ mashable.com##+js(href-sanitizer, a[href^="https://zdcs.link/"], ?u)
 ||prydwen.gg/api/v1/ping/
 vaughn.live##+js(no-fetch-if, method:POST body:zaraz)
 ||vaughn.live/vsz/
-x.com##+js(prevent-xhr, /i/api/1.1/flow/viewer.json)
-x.com##+js(prevent-xhr, /i/api/1.1/flow/timeline.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/viewer.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/timeline.json)
 x.com##+js(proxy-apply-config, {"skipToString":true})
-x.com##+js(prevent-xhr, /i/api/1.1/graphql/viewer_context.json)
+x.com##+js(prevent-xhr, /api/1.1/graphql/viewer_context.json)
 telegraph.co.uk##.onward-journey
 civitai.com##+js(no-fetch-if, faro.civitai.com)
 ||civitai.com/api/internal/pulse

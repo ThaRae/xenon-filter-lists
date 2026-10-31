@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-notifications.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-30 11:26 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1686 of 1686 upstream filters, as 1682 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1688 of 1688 upstream filters, as 1684 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -push-notification.$domain=~github.com
@@ -933,6 +933,7 @@ deepl.com###dl_app_banner_popup
 m.economictimes.com###downloadApp
 map.baidu.com###downloadnativepopupUlink
 economictimes.indiatimes.com###float_app_ET
+tokubai.co.jp###float_web2app_smart_phone_wrapper
 codeur.com###follow-modal
 kogan.com###footer-native-banner
 clubd.co.jp###footerBanner
@@ -1295,6 +1296,7 @@ chess.com##.ready-to-play-banner-component
 agoda.com##.redirectToAppBar
 medscape.com##.rel-links-media
 speedtest.net##.result-area-ad
+sfgate.com##.row1:has([aria-label="Get our ad-free app"])
 rekhta.org##.rt_AppBtn
 geekdashboard.com##.section--download
 fdownload.app##.section-app-fb
