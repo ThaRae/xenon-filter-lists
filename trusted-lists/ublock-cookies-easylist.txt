@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2376 of 2378 upstream filters, as 2366 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-01 11:52 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2379 of 2381 upstream filters, as 2369 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 blaklader.*##div#onetrust-consent-sdk
@@ -419,6 +419,8 @@ consent.formula1.com##+js(trusted-click-element, button[aria-label="Essential on
 thomas-krenn.com##+js(trusted-set-cookie, copol_www_thomas-krenn_com_optin_categories, %5B%22essential%22%5D, , , domain, .www.thomas-krenn.com)
 platoapp.com##+js(trusted-set-local-storage-item, trackingConsent, not-granted)
 penny-publish.blaetterkatalog.de##+js(trusted-set-local-storage-item, DM_prefs,'{"cookie_hint":true,"accept_cookies":false,"_childs":[],"_type":1}')
+@@||iubenda.com^$script,xhr,domain=virgilio.it
+virgilio.it##+js(trusted-click-element, button.iubenda-cs-reject-btn)
 dailymail.co.uk,dailymail.com##+js(trusted-click-element, div[data-project="mol-fe-cmp"] button[class*="consent"]:not([class*="reject"]))
 1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,auth.hbomax.com,elkspel.nl,gamespot.com,giochixl.it,glamour.com,grajteraz.pl,isladejuegos.com,jatekokxl.hu,mtvuutiset.fi,paixnidiaxl.gr,pushsquare.com,spelo.se,spillespill.no,spilxl.dk,thejournal.ie,thetrainline.com,vkmag.com,zdnet.com##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, 1year)
 evaair.com##+js(trusted-set-cookie, _EVAcookieaccept, Y, 1year)
@@ -779,9 +781,10 @@ n-tv.de##+js(trusted-set-cookie, consentUUID, a8dac56d-c5d7-4a8a-bab2-da9eb2f28d
 lbc.co.uk##+js(trusted-set-cookie, consentUUID, de4972d9-e581-40c3-921b-296d6456fad0_34)
 omniekonomi.se,bt.no,vg.no##+js(trusted-set-cookie, consentUUID, 1_34_38)
 consent.faz.net,derstandard.at,derstandard.de##+js(trusted-click-element, button[title="Einverstanden"], , 1000)
-automoto.it,ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 2000)
-automoto.it,ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important; opacity: 0 !important;)
-automoto.it,ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
+ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 2000)
+ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net###iubenda-cs-banner:style(visibility: hidden !important; opacity: 0 !important;)
+ansa.it,cdt.ch,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,today.it,tuttoandroid.net,tuttotech.net##html:style(overflow: auto !important;)
+automoto.it,moto.it##+js(trusted-click-element, when-visible:button.iubenda-cs-accept-btn, , 2000)
 ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it###iubenda-cs-banner:style(visibility: hidden !important;)
 ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##html:style(overflow: auto !important;)
 ilgazzettino.it,ilmessaggero.it,ilsecoloxix.it##+js(set, _iub.cs.options.callback.onConsentRejected, noopFunc)

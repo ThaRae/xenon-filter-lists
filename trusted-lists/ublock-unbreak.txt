@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/unbreak.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2482 of 2552 upstream filters, as 2482 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-01 11:52 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2483 of 2553 upstream filters, as 2483 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -2488,3 +2488,4 @@ funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, a
 @@||speedcubeshop.com/cdn/shopifycloud/consent-tracking-api/v*/consent-tracking-api.js$1p
 ||log.nordot.jp^$badfilter
 ||log.nordot.jp/pageview
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect-rule=googletagservices_gpt.js:5,domain=theglobeandmail.com

@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-10-31 10:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56415 of 56419 upstream filters, as 56413 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-01 11:52 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56420 of 56424 upstream filters, as 56418 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -7091,6 +7091,7 @@ omni.soundestlink.com$image
 ||ciderfeast.com^
 ||cinemabonus.com^
 ||cinemafair.com^
+||circascope.com^
 ||circlelevel.com^
 ||citizensactive.com^
 ||citydeal.net^
@@ -7864,6 +7865,8 @@ omni.soundestlink.com$image
 ||j93557g.com^
 ||jailbulb.com^
 ||jamexport.com^
+||jazzdocumentary.com^
+||jazzpianofast.com^
 ||jellyfinstream.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
@@ -7872,6 +7875,7 @@ omni.soundestlink.com$image
 ||joblessdrum.com^
 ||jobmist.com^
 ||joshpaintings.com^
+||joybegins.com^
 ||joyfulharbor.com^
 ||joyouspool.com^
 ||joyoussurprise.com^
@@ -7900,6 +7904,7 @@ omni.soundestlink.com$image
 ||kartbarriersystem.com^
 ||keenquill.com^
 ||kernellife.com^
+||keymono.net^
 ||kidpowers.com^
 ||kidrobotgames.com^
 ||kindhush.com^
