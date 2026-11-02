@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/badware.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-01 11:52 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 4535 of 4815 upstream filters, as 4527 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-02 13:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 4550 of 4832 upstream filters, as 4542 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||01net.com/telecharger/$doc
@@ -1256,6 +1256,8 @@ cracksmid.com##div[style=""] > center > center
 ||webjob-whatsapp.com^$doc
 ||webkey-whatsapp.com^$doc
 ||japan-pairs.com^$all
+||vn-ku88.net^$all
+||galanzmotzjp.com^$all
 ||webuzz.me^$doc
 ||gokinjolove.jp^$all
 ||gokinjolove.net^$all
@@ -2841,6 +2843,19 @@ darumasushiantofagasta.cl##+js(aost, Function, /bxslider|wow/)
 ||r2.dev/Verifyd1.html$doc
 r2.dev##body > .main-wrapper > .main-content:has(> #checkbox-window.checkbox-window)
 ##div.grid[aria-hidden="true"]:not([id]):not([style]) + main:not([class]):not([id]):not([style]) ~ div[style="position: fixed; inset: 0px; z-index: 2147483647;"]:not([class]):not([id])
+##body[data-m][style] > footer ~ #plcontent > #plgate
+###plcontent > #bw-cf-root
+||birelopater.top^$all
+||desorantpola.top^$all
+||koostergop.top^$all
+||montopera.top^$all
+||nezercert.top^$all
+||olvantrise.top^$all
+||prostevision.top^$all
+||repolander.top^$all
+||uirolader.top^$all
+||yolopander.top^$all
+||pentomorinexolentokarodarimexotavo.digital^$all
 ||cracksway.com^$all
 ||gamingdebates.com^$all
 ||bonzi.link^$all

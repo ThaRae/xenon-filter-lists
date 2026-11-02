@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/unbreak.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-01 11:52 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2483 of 2553 upstream filters, as 2483 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-02 13:34 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2481 of 2551 upstream filters, as 2481 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 @@||awstrack.me/*auth.coindesk.com$doc,popup
@@ -451,7 +451,6 @@ ebay.com#@#li.s-item:has(span:has-text(SPONSORED))
 @@||rcijeux.fr/game/20minutes/$frame,domain=20minutes.fr
 @@||opgg-static.akamaized.net/*/tracker.js$script,domain=op.gg
 ||adswizz.com^$badfilter
-||adswizz.com^$3p
 @@||disqus.com/next/login/$popup
 ||rtl.de/pf/resources/js/videotracking.min.js$script,redirect=noopjs,1p
 @@||gstatic.com/*/adwords/partnerspublic/partners_public_*/partners/main.dart.js$script
@@ -1703,7 +1702,6 @@ delta.com#@#.adv-container
 ||shop.motorolasolutions.com/msi-files/libs/dynatrace.js$script,redirect=noopjs,from=shop.motorolasolutions.com
 ||shop.motorolasolutions.com/msi-files/page-tags/head/dynatrace-loader.js$script,redirect=noopjs,from=shop.motorolasolutions.com
 ||statcounter.com^$badfilter
-||statcounter.com^$3p
 vindobona.org#@#.ads_footer
 vindobona.org##.adZoneM
 vindobona.org##.adZonePC
