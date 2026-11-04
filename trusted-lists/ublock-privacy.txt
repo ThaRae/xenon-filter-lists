@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-03 12:50 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1538 of 1819 upstream filters, as 1687 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-04 13:02 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1536 of 1817 upstream filters, as 1685 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||google-analytics.com/analytics.js$script,xhr,redirect=google-analytics_analytics.js:5
@@ -44,8 +44,6 @@ www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
 www.google.*##+js(set, rwt, noopFunc)
 www.google.*###main a[href][data-sb^="/url?"]:remove-attr(data-sb)
-www.google.com##+js(aeld, mouseover, b.src, elements, #search #rso div[data-rpos] > div[data-ved])
-www.google.com##+js(rpnt, script, this.gbar_=, `window.addEventListener("mousemove",(()=>{W_jd&&document.querySelectorAll("#search #rso div[data-rpos]").forEach((t=>{let e=t.querySelector('div[data-hveid] span[jsaction^="trigger."] > a[href^="/goto?url="]');if(!e)return;let r=t.querySelector('div[id^="atritem-"]')?.attributes?.jsdata?.value?.split?.(";_;")?.[1];r&&Object.getOwnPropertySymbols(W_jd[r]).map((t=>{let l=W_jd[r][t];if("object"!=typeof l||null===l)return;let s=Object.values(l)?.[0]?.[32];if(s?.[3]?.[0]?.startsWith?.("http"))e.setAttribute("href",s[3][0]);else if(null!==s?.[3]){let t=Object.values(s?.[3]);t?.[0]?.[0]?.startsWith?.("http")&&e.setAttribute("href",t[0][0])}else null===s?.[3]&&s[11]?.[7]?.startsWith?.("http")&&e.setAttribute("href",s[11][7])}))}))}));this.gbar_=`)
 www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
 sfr.fr##+js(aopr, _oEa)
