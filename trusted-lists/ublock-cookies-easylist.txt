@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-04 13:02 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2379 of 2381 upstream filters, as 2369 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-05 13:16 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2380 of 2382 upstream filters, as 2370 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 blaklader.*##div#onetrust-consent-sdk
@@ -2375,3 +2375,4 @@ automicgold.com##+js(trusted-set-cookie, cookieyes-consent, consentid:0\,consent
 jysk.no##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0003%3A0%2CC0004%3A0%2CC0002%3A1, , , domain, jysk.no)
 jysk.no##+js(trusted-set-cookie, OptanonAlertBoxClosed, $currentDate$, , , domain, jysk.no)
 edition.cnn.com##+js(trusted-click-element, when-visible:button#onetrust-reject-all-handler)
+alpsgo.it##+js(trusted-set-cookie, dp_cookieconsent_status, '{"status":"approved","checkboxes":[{"name":"statistics","checked":false},{"name":"marketing","checked":false}]}')

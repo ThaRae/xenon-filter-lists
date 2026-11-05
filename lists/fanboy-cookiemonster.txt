@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-04 13:02 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28183 of 28183 upstream filters, as 28181 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-05 13:16 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28184 of 28184 upstream filters, as 28182 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -26594,6 +26594,7 @@ sravni.ru##[sr-portal-container]
 sportmk.ru##[style^="position: fixed; left: 50%; bottom:"]
 reshuent.ru,sdamgia.ru##[style^="text-align: left; position: fixed;"]
 gkbyudina.ru##[x-data="BannerCookies"]
+helix.ru##app-cookie-consent
 fastvps.ru##app-cookies-accept
 authedu.mosreg.ru,myschool.mos.ru,school.mos.ru,uchebnik.mos.ru##body > div[style^="position: fixed; overflow: visible; top: 0px; left: 0px; transform: translate("]
 svo.aero##cookie

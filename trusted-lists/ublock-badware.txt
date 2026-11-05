@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/badware.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-04 13:02 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 4570 of 4852 upstream filters, as 4562 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-05 13:16 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 4571 of 4853 upstream filters, as 4563 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||01net.com/telecharger/$doc
@@ -2875,6 +2875,7 @@ r2.dev##body > .main-wrapper > .main-content:has(> #checkbox-window.checkbox-win
 ||uirolader.top^$all
 ||yolopander.top^$all
 ||pentomorinexolentokarodarimexotavo.digital^$all
+##body.glue-body > #cf-modal-overlay
 ||cracksway.com^$all
 ||gamingdebates.com^$all
 ||bonzi.link^$all
