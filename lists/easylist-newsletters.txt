@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-06 12:59 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6076 of 6076 upstream filters, as 6075 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-07 11:46 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6078 of 6078 upstream filters, as 6077 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -2033,6 +2033,7 @@ intego.com##.Subscription_sub_wrapper__eQ6n1
 asmag.com##.SubtoNew_box
 gatesnotes.com##.TGN_site_FullOverlay
 which.co.uk##.ToolSignpost__container--1h2Ap
+pcworld.com##.TrendingBar__item--subscribe
 6amcity.com##.TwoColumnContainer3070
 brighteon.com##.VideoNewsletter
 bustle.com##.VrW.j1J
@@ -4866,6 +4867,7 @@ thefederalist.com##+js(set-cookie, pum-276000, true)
 techpolicy.press###ml-webforms-popup-6050079
 techpolicy.press##.ml-webforms-popup-overlay
 techpolicy.press##body:style(overflow: auto !important; position: initial !important;)
+gtaservers.org##+js(set-local-storage-item, np-west-signup-seen-2, 1)
 niemanlab.org###nlep
 niemanlab.org##body:style(overflow: auto !important; position: initial !important;)
 avclub.com,jezebel.com,pastemagazine.com##+js(set-cookie, pm_email_popup_status, 1)
