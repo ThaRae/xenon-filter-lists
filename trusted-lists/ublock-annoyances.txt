@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-07 11:46 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3506 of 3563 upstream filters, as 3503 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-08 11:58 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3509 of 3566 upstream filters, as 3506 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -973,8 +973,10 @@ fileditchvids.st##+js(aeld, contextmenu)
 fiio.com##+js(aeld, /dragstart|selectstart|touchstart|mouse/, , elements, .w-slide)
 fiio.com##.w-slide div[ctype="text"]:style(cursor: auto !important; height: auto !important;)
 historicaerials.com##+js(alert-buster)
-adult-tv-channels.com,ritsatv.ru,tvline.live,oxax.tv,hochu.tv,klubnichka.live,hotelki.tv,seirsanduk.*,tvron.*,canale-tv.net,smotrim-tv.top,telik.live,live.domatv.net##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
-rd-s.live,rdslive.net,antena1.live,tvonline24.net,canale-tv.net##+js(aeld, contextmenu)
+adult-tv-channels.com,canale-tv.net,cdntvmedia.com,hochu.tv,hotelki.tv,klubnichka.live,live.domatv.net,ontvtime-tv.top,oxax.tv,ritsatv.ru,rustv.fun,rutele.top,seir-sanduk.*,seirsanduk.*,smotret-tv.link,smotrettv.cam,smotrim-tv.top,telik.live,tvline.live,tvron.*##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+antena1.live,canale-tv.net,rd-s.live,rdslive.net,tvonline24.net,weeb.tv##+js(aeld, contextmenu)
+bhoomtv.org,porntv.us,rustv.fun,xxxtv.us##+js(ra, oncontextmenu|onkeydown|onselectstart, body, complete)
+bhoomtv.org,porntv.us,xxxtv.us##+js(rmnt, script, contextmenu)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container
@@ -3509,3 +3511,4 @@ firestream.site##+js(set, console.table, trueFunc)
 firestream.site##+js(aeld, keydown, ||_0x)
 ||thehindu.com/assets/deferred.min.js
 tvivu.com##+js(nostif, .adsbygoogle?.loaded)
+perlentaucher.de##+js(set, adblockerIsEnabled, false)

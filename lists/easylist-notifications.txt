@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-notifications.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-07 11:46 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1688 of 1688 upstream filters, as 1684 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-08 11:58 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1689 of 1689 upstream filters, as 1685 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -push-notification.$domain=~github.com
@@ -1035,7 +1035,7 @@ genius.com##.android_banner
 coincodex.com##.app
 washingtonpost.com##.app-adoption-banner
 flypgs.com##.app-b
-autoscout24.it,dailynews24.in,m.calciomercato.com,mygwork.com,prioritypass.com,similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
+autoscout24.it,dailynews24.in,m.calciomercato.com,mygwork.com,newsmaxbalkans.al,newsmaxbalkans.com,newsmaxpolska.pl,prioritypass.com,similarweb.com,spooncast.net,substack.com,whosampled.com##.app-banner
 mygwork.com##.app-banner--overlay
 autoscout24.it##.app-banner-fragment
 coinmarketcap.com##.app-banner-new
@@ -1053,6 +1053,7 @@ hindustantimes.com##.app-link
 an1.com##.app-panel
 news.yahoo.com,tracker.gg##.app-promo
 sunday-webry.com##.app-read-content
+newsmaxbalkans.al,newsmaxbalkans.com,newsmaxpolska.pl##.app-social-box
 atlasobscura.com##.app-store-heading
 banggood.com##.app-top-bar
 banggood.com##.app-top-height

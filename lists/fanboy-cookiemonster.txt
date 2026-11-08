@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-07 11:46 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28190 of 28190 upstream filters, as 28188 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-08 11:58 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28191 of 28191 upstream filters, as 28189 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -17557,6 +17557,7 @@ stingray.com###tracking-popup
 privacy.org.nz###trackingmessage
 tracxn.com###tracxn-cookie-consent-banner-root
 clay.com,visionworks.com###transcend-consent-manager
+topsort.com###ts-consent-banner
 typesafe.ai###ts-cookie-consent
 undercurrentnews.com###ucn-gdpr-overlay
 uconn.edu###uconn-c-notice
