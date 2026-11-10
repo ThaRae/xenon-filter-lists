@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-09 13:57 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28191 of 28191 upstream filters, as 28189 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-10 13:30 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28193 of 28193 upstream filters, as 28191 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -16639,6 +16639,7 @@
 ||propcom.co.uk/cookie/
 ||purevpn.com/loadGdprView
 ||push-content.springernature.io^$script
+||radio.cmc.com.hr/wp-content/plugins/complianz-gdpr/cookiebanner$script
 ||route-fifty.com/cookie-policy
 ||rtx.com/-/media/base-themes/scroll-lock/
 ||scache-ws.vzw.com/vendor/transcend/vcg/airgapWrapper.js$domain=verizon.com
@@ -26609,6 +26610,7 @@ vmeste.mosreg.ru##dd-cookie-accept-banner
 sostav.ru##div:has(> p>a[href$="/page/policy"])
 rabota.sber.ru##div[class*="styled__CookieWrapper-"]
 meta-ratings.kz,metarating.com.ua,metaratings.by,metaratings.ru,metaratings.tj##div[class^="CookieAllowance-module-"]
+ggsel.net##div[class^="CookieBanner-module"]
 sberbank.com,sberbank.ru##div[class^="CookieWarning-"]
 sponsr.ru##div[class^="Cookie_container"]
 life.by##div[class^="Cookie_modalRoot_"]
