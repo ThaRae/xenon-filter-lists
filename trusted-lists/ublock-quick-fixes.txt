@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/quick-fixes.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-11 12:45 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 384 of 406 upstream filters, as 387 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-12 13:49 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 386 of 408 upstream filters, as 389 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 @@||hb.vntsm.com/v4/live/vms/sites/aternos.org/index.js$script,domain=aternos.org
@@ -269,6 +269,7 @@ streamcash.to##a[rel*="sp0nsored"]:upward(1)
 streamcash.to##+js(trusted-override-element-method, HTMLAnchorElement.prototype.click, a[target="_blank"])
 streamcash.to##div.video-js:style(z-index:2147483647 !important)
 streamcash.to##style:has-text(2147483647):remove()
+streamcash.to##+js(ra, style, div[class][style*="2147483647"], asap, quitAfter, 10)
 ||mjzeexubcswjka.com^
 ||uijarxbm.com^
 decompiler.com##+js(set, OffscreenCanvas.prototype.getContext, undefined)
@@ -392,4 +393,5 @@ tonuriaz.info,wakuraw.com,klmanga.cloud,trogiupnhanh.com,mangaruu.com,rawfree.to
 ||googleadservices.com/pagead/conversion.js$script,redirect=noop.js,domain=soraraw.net|soraraw.site|rawfree.top|mangaruu.com|trogiupnhanh.com|wakuraw.com|klmanga.cloud|tonuriaz.info
 ||city.yubari.lg.jp/uploaded/banner/$badfilter
 socialxup.com##+js(aeld, click, /\[native code\]|^\s*e\s*=>\s*.+\(\s*e\s*\)\s*$/)
-socialxup.com##a[target][href^="/"]
+socialxup.com##a[target][href^="https://socialxup.com/"]
+||api.community.fox.com/*/metrics$badfilter

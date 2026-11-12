@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-11 12:45 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3509 of 3566 upstream filters, as 3506 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-12 13:49 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3511 of 3568 upstream filters, as 3508 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -848,6 +848,9 @@ resourcepack.net##+js(aopw, disableSelection)
 up4stream.com##+js(rmnt, script, debugger)
 up4stream.com##+js(acs, document.onkeydown)
 up4stream.com##+js(set, devtoolsDetector, {})
+sflix.*##+js(nostif, devtools)
+sflix.*,sflix2.*##+js(nosiif, /_0x|devtools/)
+sflix.*##+js(aeld, contextmenu)
 xossipy.com##+js(ra, oncopy|oncut)
 xossipy.com##style:has-text(user-select):remove()
 ||businessworld.in/assets/custom/custom.js$script
@@ -976,6 +979,7 @@ adult-tv-channels.com,boomboxradio.ru,canale-tv.net,cdntvmedia.com,hochu.tv,hote
 antena1.live,canale-tv.net,rd-s.live,rdslive.net,tvonline24.net,weeb.tv##+js(aeld, contextmenu)
 bhoomtv.org,porntv.us,rustv.fun,xxxtv.us##+js(ra, oncontextmenu|onkeydown|onselectstart, body, complete)
 bhoomtv.org,porntv.us,xxxtv.us##+js(rmnt, script, contextmenu)
+tvnoov.com##+js(set, HTMLDivElement.prototype.oncontextmenu, trueFunc)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container
@@ -2875,8 +2879,6 @@ fflogs.com###bottom-banner, #top-banner
 fflogs.com##.ad-placement
 fflogs.com##.side-rail-ads
 freefilesync.org##+js(rmnt, script, /adblock/i)
-sflix.to##+js(nostif, devtools)
-sflix.to,sflix.is,sflix.ca,sflix2.to##+js(nosiif, /_0x|devtools/)
 magiclen.org##.show.fade.modal
 magiclen.org##.show.fade.modal-backdrop
 magiclen.org##body:style(overflow: auto !important;)
