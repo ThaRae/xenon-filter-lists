@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy-removeparam.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-13 13:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2510 of 2718 upstream filters, as 2600 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2541 of 2749 upstream filters, as 2635 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 $removeparam=pjclid
@@ -303,6 +303,23 @@ $removeparam=fb_action_types
 $removeparam=fb_comment_id
 $removeparam=fb_ref
 $removeparam=fb_source
+||speedtest.ru^$removeparam=from
+||zhihu.com^$removeparam=share_code
+||zhihu.com^$removeparam=utm_psn
+||check24.de/suche/?q$removeparam=source
+||euronews.com^$removeparam=webPushId
+||trck.norisbank.de/click.php$removeparam=s_id
+||trck.norisbank.de/click.php$removeparam=kidc
+||trck.norisbank.de/click.php$removeparam=kid
+||dkb.de^$removeparam=referer
+||aktionen.consorsbank.de^$removeparam=partnerId
+||aktionen.consorsbank.de^$removeparam=aid
+||aktionen.consorsbank.de^$removeparam=cid
+||aktionen.consorsbank.de^$removeparam=trid
+||1xlite-12669.pro^$removeparam=tag
+||1xlite-12669.pro^$removeparam=pb
+||1xlite-12669.pro^$removeparam=click_id
+||1xlite-12669.pro^$removeparam=r
 ||auto.de^$removeparam=source
 ||auto.de^$removeparam=medium
 ||auto.de^$removeparam=campaign
@@ -1397,6 +1414,7 @@ ref=producthunt^$removeparam=ref
 ||slickdeals.net/*&sdfid=$removeparam=sdfid
 ||slickdeals.net/*&sdtrk=$removeparam=sdtrk
 ||beacon-recommend.tower.jp^$removeparam=tracking_id
+||kinopoisk.ru^$removeparam=socialAlias
 ||kinopoisk.ru^$removeparam=from_block
 ||bizhint.jp^$removeparam=trcd
 ||teknosa.com^$removeparam=adj_adgroup
@@ -1902,7 +1920,10 @@ $removeparam=clid,domain=adguard-vpn.app|adguard-vpn.biz|adguard-vpn.br|adguard-
 ||doctolib.de^$removeparam=utm_content-group
 ||doctolib.de^$removeparam=utm_button
 ||nationalgeographic.com^$removeparam=utm_rd
-*$domain=fic.fan|fanfictionero.com|ficmania.com|ficbook.net,removeparam=premiumVisit
+||fic.fan^$removeparam=premiumVisit
+||fanfictionero.com^$removeparam=premiumVisit
+||ficmania.com^$removeparam=premiumVisit
+||ficbook.net^$removeparam=premiumVisit
 ||stripchat.com^$removeparam=abTest
 ||stripchat.com^$removeparam=abTestVariant
 ||stripchat.com^$removeparam=action
@@ -2239,10 +2260,24 @@ $removeparam=a_aid,domain=expressvpn.com|vpnarea.com|wook.pt|affiliate.privatevp
 ||wired.co.uk^$removeparam=mbid
 ||wired.com^$removeparam=mbid
 ||kohls.com^$removeparam=CID
+||instagram.com^$removeparam=igsi
+||instagram.com^$removeparam=ndid
+||instagram.com^$removeparam=dlrf
+||instagram.com^$removeparam=psln
+||instagram.com^$removeparam=cplk
+||instagram.com^$removeparam=rpxt
+||instagram.com^$removeparam=srtk
+||instagram.com^$removeparam=obrf
+||instagram.com^$removeparam=xtok
+||instagram.com^$removeparam=mdxt
+||instagram.com^$removeparam=exln
+||instagram.com^$removeparam=vrfl
 ||instagram.com^$removeparam=stkn
 ||instagram.com^$removeparam=ig_rid
 ||instagram.com^$removeparam=igsh
-$removeparam=igshid,domain=instagram.com|threads.com|threads.net
+||instagram.com^$removeparam=igshid
+||threads.com^$removeparam=igshid
+||threads.net^$removeparam=igshid
 ||mediamarkt.com.tr^$removeparam=rbtc
 ||uspoloassn.com^$removeparam=ref
 ||arcelik.com.tr^$removeparam=ref

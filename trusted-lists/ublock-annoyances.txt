@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-13 13:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3512 of 3569 upstream filters, as 3509 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3511 of 3568 upstream filters, as 3508 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -3150,7 +3150,6 @@ how-to-pc.info,programming-link.info##+js(set, pqdxwidthqt, false)
 @@||how-to-pc.info^$ghide
 with.is##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important;)
 movie-web.app##+js(noeval-if, debugger)
-redecanais.*,redecanaistv.*,redisex.*,xn-----0b4asja7ccgu2b4b0gd0edbjm2jpa1b1e9zva7a0347s4da2797e8qri.xn--1ck2e1b,xn--90afacv0clj6ac0dxa.xn--p1ai,xn--90afacv0cu2a3cr.xn--p1ai##+js(rmnt, script, /ctrlKey|clickNS|disableselect/, quitAfter, 2000)
 lowcygier.pl##+js(aeld, error, browser-plugin)
 asheville.com##+js(nostif, adblock)
 theasianparent.com##+js(acs, document.onselectstart, disableselect)

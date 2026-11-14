@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-notifications.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-13 13:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1690 of 1690 upstream filters, as 1686 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1693 of 1693 upstream filters, as 1689 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -push-notification.$domain=~github.com
@@ -1666,6 +1666,9 @@ sp.nicovideo.jp###jsAppModalWithLogin
 sp.nicovideo.jp##.is-fixed body:not(.player-horizontal):has(#jsAppModalWithLogin):style(position: static !important; width: unset !important;)
 sp.nicovideo.jp##.is-fixed:has(#jsAppModalWithLogin):style(position: static !important; width: unset !important;)
 sp.nicovideo.jp##body.hdNoFixed.watch:has(#jsAppModalWithLogin):style(padding-top: unset !important; overflow: auto !important; min-height: unset !important;)
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"])
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div > div > nav:style(top: 0 !important;)
+17.live##div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div:style(min-height: 100% !important;)
 @@||braze.com/api/$domain=dairyqueen.com|deezer.com
 @@||budzetobywatelski.pl/themes/site/js/webpush.js$~third-party
 @@||creator.klarna.com/plugins/onesignal-cordova-plugin/www/onesignal.js$~third-party

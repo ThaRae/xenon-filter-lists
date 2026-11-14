@@ -2,7 +2,7 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-13 13:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
 ! Kept 28195 of 28195 upstream filters, as 28193 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
@@ -27862,7 +27862,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||consent.truste.com/notice$domain=$domain=fortune.com|hsl.fi|philips-hue.com|proximus.be|tmz.com|weather.com
 @@||consentcdn.cookiebot.com/consentconfig/$xmlhttprequest,domain=asket.com
 @@||consentmanager.mgr.consensu.org/delivery/$stylesheet,xmlhttprequest,domain=sourceforge.net
-@@||consentmanager.net^$script,subdocument,domain=abendblatt.de|bauhaus.se|bike-magazin.de|bluray-disc.de|cyberport.at|cyberport.de|dailybuzz.nl|donaukurier.de|dw.com|eat.de|empfohlen.de|eventim.ro|lippu.fi|mediaite.com|morgenpost.de|nius.de|nwzonline.de|play3.de|racingnews365.com|spar.hu|teslamag.de|test.de|testerup.com|vaterland.li|vijesti.hrt.hr|vkmag.com|webfail.com|winfuture.de
+@@||consentmanager.net^$script,subdocument,domain=abendblatt.de|bauhaus.se|bike-magazin.de|bluray-disc.de|cyberport.at|cyberport.de|dailybuzz.nl|donaukurier.de|dw.com|eat.de|empfohlen.de|eventim.ro|lippu.fi|mediaite.com|morgenpost.de|nius.de|nwzonline.de|play3.de|racingnews365.com|spar.hu|teslamag.de|test.de|testerup.com|vaterland.li|vijesti.hrt.hr|vkmag.com|watson.ch|webfail.com|winfuture.de
 @@||consilium.europa.eu/assets/chunk/cookie-banner.js$~third-party
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookie-script.com^$domain=lr-shop-direkt.de|swiss-sport.tv

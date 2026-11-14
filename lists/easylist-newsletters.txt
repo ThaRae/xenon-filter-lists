@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-13 13:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6082 of 6082 upstream filters, as 6081 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6083 of 6083 upstream filters, as 6082 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -1334,6 +1334,7 @@
 ||chan.sankakucomplex.com/javascripts/sp/s-new.js
 ||chemistwarehouse.com.au/edm_collector.html
 ||chimpstatic.com/mcjs-connected/$script,domain=stilldrinking.org
+||dragonforms.com^$domain=freightwaves.com
 ||dw.com/webapi/iframes/widget/
 ||electricfencing.co.uk/prnewsletterpopup/
 ||ewnews.com/wp-content/themes/dw-focus/newsletter.png
@@ -2024,6 +2025,7 @@ aibusiness.com,gamedeveloper.com,itprotoday.com##.SubscribeBannerTopicPage
 riverbender.com##.SubscribeBox
 patch.com##.SubscribeCTABlurb_SubscribeCTABlurb__M_Azu
 nordvpn.com##.SubscribeSection
+timesnownews.com##.SubscribeWithEmail_subscribe-body__UQfW_
 otcmarkets.com##.Subscribe__Subscribe___2hrcO
 hoorayteams.com##.Subscribe_subscribe__fsS5P
 naturalnews.com##.Subscription-Article-Box
@@ -2040,7 +2042,6 @@ bustle.com##.VrW.j1J
 wbur.org##.WallOfLinks_actions__cAUTE
 cnbc.com##.WildcardEmbed-wrapper
 latimes.com##.\@container\/newsletter-module
-timesnownews.com##._37K4.RUE6
 80.lv##._3Gr3h
 gulfnews.com##._4EXSh
 thelogic.co##.__form-wrapper
