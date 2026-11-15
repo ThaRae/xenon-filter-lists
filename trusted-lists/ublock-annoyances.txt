@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-14 12:14 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3511 of 3568 upstream filters, as 3508 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-15 12:47 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3517 of 3574 upstream filters, as 3514 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -964,6 +964,7 @@ agerpres.ro##+js(aeld, contextmenu, preventDefault)
 radnuk.com.ua##+js(set, document.oncopy, undefined)
 radnuk.com.ua##+js(ra, oncopy, .articles-content[oncopy], complete)
 kaembed.*,mfw09.org,streamingunity.*,vixcloud.*##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+kaembed.*,mfw09.org,streamingunity.*,vixcloud.*##+js(aeld, contextmenu)
 movy.sx##+js(prevent-addEventListener, contextmenu)
 jagledam.*##+js(aeld, contextmenu)
 jagledam.*##+js(set, document.oncontextmenu, null)
@@ -975,11 +976,15 @@ fileditchvids.st##+js(aeld, contextmenu)
 fiio.com##+js(aeld, /dragstart|selectstart|touchstart|mouse/, , elements, .w-slide)
 fiio.com##.w-slide div[ctype="text"]:style(cursor: auto !important; height: auto !important;)
 historicaerials.com##+js(alert-buster)
-adult-tv-channels.com,boomboxradio.ru,canale-tv.net,cdntvmedia.com,hochu.tv,hotelki.tv,klubnichka.live,ontivi.net,live.domatv.net,guljaj.com,nsk-tv.narod.ru,ontvtime-tv.top,oxax.tv,ritsatv.ru,rustv.fun,rutele.top,rutv.pw,seir-sanduk.*,seirsanduk.*,smotret-tv.*,smotrettv.*,smotrim-tv.*,smotritv.su,smotrufilm.ru,telik.live,tivix.co,tv11.ruvideo.site,tvline.live,tvron.*,voha.tv,viks.tv,vsetv.click##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+adult-tv-channels.com,blacktv.top,boomboxradio.ru,cdniptvpotok.com,cdntvmedia.com,euroball.ru,eurotvsport1.ru,hochu.tv,hotelki.tv,klubnichka.live,ontivi.net,live.domatv.net,guljaj.com,kingp2p.top,kinobro.online,magtv.top,mediamaniya.site,myru.top,nsk-tv.narod.ru,ontvtime-tv.top,oxax.tv,pokaz.me,rapp.su,ritsatv.ru,rustv.fun,rutele.top,rutv.pw,seir-sanduk.*,seirsanduk.*,smotret-tv.*,smotrettv.*,smotrim-tv.*,smotreshka-tv.*,smotritv.su,smotrufilm.ru,sportplu-s.ru,telik.live,tennis-live.su,telek.online,tivix.co,tv11.ruvideo.site,tvin.su,tvline.live,tvtut.top,voha.tv,viks.tv,vsetv.click##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 antena1.live,canale-tv.net,rd-s.live,rdslive.net,tvonline24.net,weeb.tv##+js(aeld, contextmenu)
-bhoomtv.org,porntv.us,rustv.fun,xxxtv.us##+js(ra, oncontextmenu|onkeydown|onselectstart, body, complete)
-bhoomtv.org,porntv.us,xxxtv.us##+js(rmnt, script, contextmenu)
+bhoomtv.*,porntv.us,rustv.fun,xxxtv.us##+js(ra, oncontextmenu|onkeydown|onselectstart, body, complete)
+bhoomtv.*,porntv.us,xxxtv.us##+js(rmnt, script, contextmenu)
 tvnoov.com##+js(set, HTMLDivElement.prototype.oncontextmenu, trueFunc)
+televid.top,ontvtime.ru,zhdcdn1.li,freecam.ro##+js(aeld, contextmenu)
+webcamromania.ro##+js(aeld, contextmenu, preventDefault)
+canale-tv.net,tvron.*##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+iplayerhls.com,morencius.com,hanerix.com,vibuxer.com,audinifer.com##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container
@@ -3514,3 +3519,4 @@ firestream.site##+js(aeld, keydown, ||_0x)
 tvivu.com##+js(nostif, .adsbygoogle?.loaded)
 perlentaucher.de##+js(set, adblockerIsEnabled, false)
 fsicomics.com##+js(rpnt, script, > 0, < 0, includes, clearInterval)
+theguardian.com##.maybe-later
