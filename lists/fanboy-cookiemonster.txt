@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-16 13:43 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28195 of 28195 upstream filters, as 28193 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-17 14:29 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28199 of 28199 upstream filters, as 28197 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -17889,6 +17889,7 @@ headforpoints.com,sudlisboa.com##.ancr-pos-bottom
 playngo.com##.anim-banner-enter-done
 mnetplus.world##.anim__cookie__box-bg
 giraffe360.com##.animate-privacy-policy-show
+alpian.com##.animate-slide-up-cookies-banner
 equiti.com,wowhead.com##.announcement
 civilsociety.co.uk##.announcement-banner
 commsec.com.au,soundcloud.com##.announcements
@@ -19348,6 +19349,7 @@ mrgugu.com##.rhvQa
 ricola.com##.ricola-cookie-info
 82-0.com##.right-4.fixed
 haikuanimator.com##.rmq-d60b84d6
+ransomnews.com##.rn-cookie-consent
 southwestcoastpath.org.uk##.roar-body
 repovive.com##.rounded-lg.max-w-3xl
 smallpdf.com##.rplgd-0
@@ -19669,7 +19671,7 @@ perlego.com##[aria-label="cookie banner"]
 app.joinknack.com##[aria-label="cookie consent banner"]
 kantan.news##[aria-label="Çerezler ve Gizlilik"]
 mangooutlet.com##[aria-labelledby="cbanner-title"]
-app.wooclap.com,doctoralia.com.mx,eyesift.com,iranintl.com,stopkillinggames.com##[aria-labelledby="cookie-banner-title"]
+app.wooclap.com,doctoralia.com.mx,eyesift.com,iranintl.com,piknova.com,stopkillinggames.com##[aria-labelledby="cookie-banner-title"]
 pandastack.ai##[aria-labelledby="cookie-consent-title"]
 footium.club##[aria-labelledby="cookieConsentHeading"]
 weedmaps.com##[aria-labelledby="notification_label"]
@@ -19883,6 +19885,7 @@ pinnacle.com##div[data-test-id="Cookie-PolicyBanner"]
 lego.com##div[data-test="age-gate-disclaimer"]
 deeppersonality.app##div[data-testid="analytics-consent-banner"]
 metadefender.com##div[data-testid="banner"]:has(a[href="https://www.opswat.com/legal/cookies-policy"])
+context.dev##div[data-testid="consent-banner-root"]
 athenegpt.ai,betterhelp.com,brilliant.org,regain.us##div[data-testid="cookie-banner"]
 ssense.com##div[data-testid="cookie-banner-overlay"]
 expo.dev,ssense.com##div[data-testid="cookie-banner-root"]
@@ -20065,7 +20068,7 @@ landsbokasafn.is,sh2000.ru,vienormali.it##.info
 alarme4.com,alko-garden.uk,badmoebel-shop.de,bikesportworld.de,bivvyonsummit.de,businessgateways.com,classicfactory24.com,clous.eu,dachplatten24.de,direkthaar.de,drhittich.com,durasat.de,eifel.de,entia.de,feingeisterei.de,felgenfuchs.de,fightersworld.com,g-estore.com,graffitistore.gr,gutschild.de,hamamsahara.de,humidor-import.de,kaempgen.de,klingelknopf24.de,kurtgaden.de,marketender.de,martin-schmid-blechblaesernoten.de,nachbestellservice.de,ostfriesentee.de,phonetastik.de,sarras-shop.com,seven-arrows.de,shop.peraqua.com,shop.train-safe.de,star-beauty.de,starshooter.de,tattoo-tools.de,tommis-sportshop24.de,wohn-werk.de,zukunft.business###cookieNote
 batteryequivalents.com,camara.net,culturagiapponese.it,imunify360.com,instituto-camoes.pt,isokon.si,kalymnos-isl.gr,randevau.hu,reshade.me,v-tac.eu##.activebar-container
 favoptic.fi,favoptic.no##.cookie_consent_alert
-absa.co.za,bdonline.co.uk,eutelsat.com,fieldsofskibbereen.ie,fullraces.com,gamesontvtoday.com,librariaonline.ro,sciencelink.net,support.tresorit.com,thegrocer.co.uk,torrents.ws,wifikaernten.at,worldfishing.net###cookiePolicy
+absa.co.za,bdonline.co.uk,eutelsat.com,fieldsofskibbereen.ie,fullraces.com,gamesontvtoday.com,librariaonline.ro,revistas.uptc.edu.co,sciencelink.net,support.tresorit.com,thegrocer.co.uk,torrents.ws,wifikaernten.at,worldfishing.net###cookiePolicy
 emerald-heizijde.be,rivo.be,upperleft.be,vooruitzicht.be##.custom-consent
 drugdiscoverynews.com,fruskov.dk,the-scientist.com###CookiePolicy
 landal.at,landal.be,landal.ch,landal.co.uk,landal.com,landal.de,landal.dk,landal.no##consent-slide-in-component
@@ -26370,6 +26373,7 @@ marchgroup.ru,severstal-avia.ru##.cbar
 afisha.timepad.ru##.ccookie-consent
 chance.ru##.check_cookie
 cardsmobile.ru##.cm-m_c-w
+c-o-k.ru##.cok-cookie
 web-axioma.ru##.confform
 aquagrunt.ru##.confidentalInfo
 atlant-minsk.ru##.confirm-panel

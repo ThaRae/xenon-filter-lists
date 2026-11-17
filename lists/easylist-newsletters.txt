@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-16 13:43 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6083 of 6083 upstream filters, as 6082 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-17 14:29 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6085 of 6085 upstream filters, as 6084 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -3456,6 +3456,7 @@ tweaktown.com##.right_subscribe
 reviewjournal.com##.rj-newsletter-signup
 therealmediang.com##.rm-newsletter-banner
 aol.com##.rmp-module__newsletter-signup
+ransomnews.com##.rn-scp
 religionnews.com##.rns-article-signup-blurb-wrap
 religionnews.com##.rns-immigration-popup-overlay
 religionnews.com##.rns-newsletter-embed-content
@@ -4026,6 +4027,7 @@ minds.com##M-MODAL
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com##[aria-label*="newsletter"]
 mashable.com##[aria-label="Newsletter Sign-Up"]
 usatoday.com##[aria-label="Newsletter signup form"]
+piratewires.com##[aria-label="Subscribe"]
 rnz.co.nz##[aria-labelledby="election-newsletter-promo-heading-_r_3_"]
 github.com##[aria-labelledby="subscribe-to-newsletter"]
 therealdeal.com##[class*="Newsletter"]

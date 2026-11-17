@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/filters.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-16 13:43 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 22925 of 23529 upstream filters, as 24414 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-17 14:29 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 22930 of 23534 upstream filters, as 24419 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 *_ad_$media,domain=youtube.com,3p
@@ -15097,9 +15097,11 @@ chip.de##div[class*="ad-slot" i]
 chip.de##div[id*="AdSlot"]
 chip.de##.ad-listing
 chip.de##.product__top-aside
+chip.de##.avast-box
+chip.de##.ae-banner
 chip.de##.RUC-DownloadButton-Wrap:has(> span:has-text(/^ANZEIGE$/))
-chip.de##div:not([id], [class]):has(> section:only-child > div:only-child > a[href^="https://www.chip.de/deals/schnaeppchen/"]:only-child > img[src^="https://quadro.burda-forward.de/"]:only-child)
-chip.de##div:not([id], [class]):has(> section:only-child > a[href^="https://www.chip.de/deals/schnaeppchen/"]:only-child > img[src^="https://quadro.burda-forward.de/"]:only-child)
+chip.de##div:not([id], [class]):has(> div:only-child > div:only-child > a[href^="https://www.chip.de/test-kaufberatung/"]:only-child > img[src^="https://quadro.burda-forward.de/"]:only-child)
+chip.de##div:not([id], [class]):has(> div:only-child > a[href^="https://www.chip.de/test-kaufberatung/"]:only-child > img[src^="https://quadro.burda-forward.de/"]:only-child)
 www.chip.de##+js(rmnt, script, /\, [0-9]{3}\)\]\; var /)
 www.chip.de##+js(rmnt, script, /\"\,\"clickp\"\:\"[0-9]{1\,2}\"/)
 ||nah-versorger.de^$3p
@@ -22851,6 +22853,7 @@ second-hand.it##.werbung-container
 planetminecraft.com##+js(nano-sib, countdown)
 up-4ever.net##+js(rmnt, script, .offsetHeight)
 up-4ever.net##.u4dl-spotcol.u4dl-choice
+||up-4ever.net/js/bravenote.js
 reuters.com##+js(rmnt, script, rcom_bdScriptLoaded)
 dilar.tube##+js(set, HTMLImageElement.prototype.onerror, undefined)
 dilar.tube##+js(no-fetch-if, method:HEAD)
@@ -23137,6 +23140,8 @@ applescoop.org##+js(rmnt, script, /probe|adblock|__asPicks/i)
 applescoop.org##.story-content .ad
 applescoop.org##.as-ad-rail
 applescoop.org##.as-ad
+||laviola.it/jaqisharam.js
+anytimesbook.com##+js(rmnt, script, .offsetWidth)
 @@*$ghide,domain=gplinks.app|gplinks.biz|gplinks.br|gplinks.cc|gplinks.club|gplinks.co|gplinks.co.uk|gplinks.com|gplinks.com.br|gplinks.com.tr|gplinks.de|gplinks.es|gplinks.fr|gplinks.in|gplinks.info|gplinks.io|gplinks.it|gplinks.live|gplinks.me|gplinks.net|gplinks.nl|gplinks.online|gplinks.org|gplinks.pl|gplinks.pro|gplinks.ru|gplinks.site|gplinks.to|gplinks.top|gplinks.tv|gplinks.uk|gplinks.us|gplinks.ws|gplinks.xyz|qrixpe.com|powergam.online|sanadegreecollege.in
 sanadegreecollege.in,powergam.online,qrixpe.com##+js(set, document.hidden, false)
 sanadegreecollege.in,powergam.online,qrixpe.com##+js(aopw, AdBDetected)
