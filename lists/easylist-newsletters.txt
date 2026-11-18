@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-17 14:29 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6085 of 6085 upstream filters, as 6084 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-18 14:04 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6088 of 6088 upstream filters, as 6087 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -3302,6 +3302,7 @@ missionlocal.org##.np-campaign--newsletter--mid-post
 audubon.org##.np-search-form-widget
 thepeoplesvoice.tv##.np_signup_container
 theglossarymagazine.com##.ns-buttons
+ai-tldr.dev##.ns-sub
 nowtoronto.com##.nt-sidebar-newsletter
 advisor.ca##.nua-newsletter
 the-ken.com##.nudge-band-container
@@ -3510,6 +3511,8 @@ startupfortune.com##.sf-newsletter
 webmd.com##.sf-nls-wrapper
 delacortereview.org,floridianpress.com,marktechpost.com,mediaplaynews.com,reasonstobecheerful.world,thefullpint.com##.sgpb-popup-dialog-main-div-wrapper
 asianjournal.com,delacortereview.org,floridianpress.com,marktechpost.com,mediaplaynews.com,prescouter.com,reasonstobecheerful.world,thefullpint.com##.sgpb-popup-overlay
+shattered.io##.sh-bar
+shattered.io##.sh-nl
 airdriecityview.com,cochraneeagle.ca,lakelandtoday.ca,rmoutlook.com,stalbertgazette.com,thealbertan.com,timescolonist.com,westernwheel.ca##.share-mailing
 jvns.ca##.sharing
 sciencehistory.org##.shi-subscribe
@@ -3686,7 +3689,7 @@ bolavip.com##.subs-block
 unherd.com##.subs-modal
 holyrood.com##.subs-popup
 live-adexchanger.pantheonsite.io##.subsciption
-advocate.com,artisancanvas.com,businessairnews.com,thesuburbansoapbox.com##.subscribe
+advocate.com,artisancanvas.com,businessairnews.com,the-ai-beat.com,thesuburbansoapbox.com##.subscribe
 3dprint.com##.subscribe--sidebar
 bookforum.com##.subscribe-ad__corner
 countynewscenter.com,vallejosun.com##.subscribe-area

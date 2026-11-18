@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-17 14:29 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3517 of 3574 upstream filters, as 3514 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-18 14:04 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3518 of 3575 upstream filters, as 3515 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -1064,6 +1064,8 @@ tftacademy.com##div[class="relative"][style="width: 160px; height: 600px;"]
 tftacademy.com##div.relative.flex.w-full.font-semibold[style^="height:"]:has(> div.relative[style^="width:"][style*="height:"])
 lesoleil.com##.leader-board-container
 adult-tv-channels.click##+js(set-session-storage-item, adp-closed, 1)
+neoseeker.com##+js(nostif, whetherdo)
+neoseeker.com##+js(rmnt, script, raptiveAdblockDetected)
 ||holyclock.com^$3p
 ||shomershabes.com^$3p
 ||shomershabes.co.il^$3p
@@ -2991,7 +2993,6 @@ nppes.cms.hhs.gov##div#unsupportedBrowser
 khou.com##+js(aeld, mouseout)
 9now.com.au##[id="toggle_notification_notification-ad-blocker"]:upward(1)
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=ageofconsent.net
-neoseeker.com##+js(nostif, whetherdo)
 forplayx.ink##+js(aopr, devtoolsDetector.addListener)
 brutal.io,powerline.io##+js(set, document.oncontextmenu, true)
 wormate.io###mm-skin-over
