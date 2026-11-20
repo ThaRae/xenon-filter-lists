@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-19 14:28 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56717 of 56721 upstream filters, as 56713 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-20 14:04 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56736 of 56740 upstream filters, as 56732 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -3578,7 +3578,12 @@ omni.soundestlink.com$image
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
 ||cdn-vitals.com^
+||cdn.a9f3k7z2m1.com^
+||cdn.m2z7r9k4p1.com^
+||cdn.q4x8n6b2t5.com^
 ||cdn.sy-d.io^
+||cdn.t2037ulzqct5.com^
+||cdn.x7k9m2q4z8r1.com^
 ||cdnhst.xyz^
 ||cdnlogs.org^
 ||cdnwidget.com^
@@ -3599,6 +3604,7 @@ omni.soundestlink.com$image
 ||cnna.io^
 ||cntxtfl.com^
 ||confiant-integrations.net^
+||connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net^
 ||convead.io^
 ||convertlink.com^
 ||coolretargeting.com^
@@ -3698,6 +3704,7 @@ omni.soundestlink.com$image
 ||g1782759016.co^
 ||g1980843350.co^
 ||g2575096355.co^
+||g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net^
 ||g594253006.co^
 ||g792337340.co^
 ||g792337341.co^
@@ -7669,6 +7676,7 @@ omni.soundestlink.com$image
 ||forgetfulsnail.com^
 ||fortbeach.com^
 ||fortunatemark.com^
+||fortyninemaps.com^
 ||forwardslashetc.com^
 ||fossilzero.com^
 ||fourlevelsgame.com^
@@ -7898,6 +7906,7 @@ omni.soundestlink.com$image
 ||hystericalcloth.com^
 ||hystericalfinger.com^
 ||icywinter.com^
+||ideamornings.com^
 ||idlecollect.com^
 ||idsmodules.com^
 ||illinvention.com^
@@ -8037,6 +8046,7 @@ omni.soundestlink.com$image
 ||lessonsnetwork.com^
 ||libraryfacts.com^
 ||libraryvalue.com^
+||lidsmarket.com^
 ||lifecoverdirect.com^
 ||liftedknowledge.com^
 ||lightenafterthought.com^
@@ -8130,6 +8140,7 @@ omni.soundestlink.com$image
 ||marriedmailbox.com^
 ||marriedvalue.com^
 ||marsnextdoor.com^
+||mascguys.com^
 ||maskedadmin.com^
 ||masseurexpress.com^
 ||massivemark.com^
@@ -10725,6 +10736,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
+||analytics-prod.pubgen.org^
 ||analytics-production.hapyak.com^
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
@@ -10912,6 +10924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.config-security.com/first
 ||api.country.is^$third-party
 ||api.croct.io^
+||api.dappier.com/app/widget/logwidgetevent
 ||api.firecrown.com/v1/events
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
@@ -11691,6 +11704,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eventgateway.soundcloud.com^
 ||eventlog.chatlead.com^
 ||eventlog.inspsearchapi.com^
+||eventpiper.vlcapi.net^
 ||events-endpoint.pointandplace.com^
 ||events-ingestion-helpcenter.services.gorgias.help^
 ||events-ocu.zipify.com^
@@ -11788,6 +11802,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
 ||feedify.net/thirdparty/json/track/
+||feliz.data.tm-awx.com/netro-web/batch
 ||feliz.data.tm-awx.com/smile-web-v2/batch
 ||fem.gprod.postmedia.digital/*/IIQUniversalID.js
 ||fgip.rosehosting.com^
@@ -11962,6 +11977,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gubagoo.com/modules/tracking/
 ||gubagoo.io/c/$image
 ||gw.conversionsapigateway.com^
+||gw.vlcapi.net/geo
+||gw.vlcapi.net/init
 ||h-bid.com^$third-party
 ||h2porn.com/new-hit/?
 ||hadrianpaywall.com/views
@@ -15281,7 +15298,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.univtec.com^
 ||trsbf.com/static/fbs.min.js
 ||unpkg.com/@topsort/analytics.js
-||view.publitas.com^
+||view.publitas.com/ecommTracker.js
+||view.publitas.com/javascripts/vendors/publitas-stats.js
 ||webpixel.smartmeapp.com^
 ||aftonbladet.se/blogportal/view/statistics?$third-party
 ||collector.schibsted.io^
@@ -15921,6 +15939,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.auspost.com.au^
 ||dd.g2.com^
 ||dd.nytimes.com^
+||dd.reuters.com^
 ||dd.viator.com^
 ||ddome-tag.blablacar.com^
 ||dealdash.com/tracker-json
@@ -17633,6 +17652,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wh.ipaddress.com^
 ||whattomine.com/stats
 ||wheregoes.com/api/event
+||whispersinthecorridors.in/public/js/analytics.js
 ||whistleout.com.au/track
 ||wikihow.com/x/collect?
 ||wikily.gg/api/event
@@ -55285,6 +55305,8 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||j1.ax.xrea.com^
 ||k-crm.jp/tracking.js
 ||kabu-sokuhou.com/js/cpv/
+||kasemato.net/wp-content/themes/kasemato/assets/access-analytics.js
+||kasemato.net/wp-content/themes/kasemato/assets/frame-stats.js
 ||knshow.com/ab?
 ||kojima.net/excludes/KPC/js/kjm_gtm.js
 ||korewaeroi.com/fukugan_$subdocument
@@ -55363,9 +55385,6 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||ssai.api.streaks.jp/*/ad_info?
 ||stat.i3.dmm.com/plus/tracking.js
 ||stats.nhk.or.jp^
-||sy.ameba.jp^
-||sy.amebame.com^
-||sy.ameblo.jp^
 ||t.rentio.jp^
 ||t.syosetu.org^
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
