@@ -2,8 +2,8 @@
 ! Source: https://filters.adtidy.org/extension/ublock/filters/18.txt
 ! Homepage: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
 ! License: GPL-3.0 (https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-20 14:04 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 20773 of 20832 upstream filters, as 20772 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-21 13:30 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 20775 of 20834 upstream filters, as 20774 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ##cms-accept-tags
@@ -2373,6 +2373,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 military24.pl,softimi.pl,yarnpower.pl,baumgart-kaffee.pl,decorlabs.pl,werbus.pl,xeromania.pl,dzielnicazdrowia.pl,sklepy-cynamonowe.eu,elektronar.pl,granitnaturalny.pl,sklep-ppoz.pl,alphastore.pl,latamfpv.pl,krugermatz.com,patandrub.eu,sklepkoszykarski.pl,dayabeauty.pl,najlepszyfiltr.pl,wildleather.pl,sklep.szymkowiak-karcher.pl,coolmarket.pl,sklep.hmmcleaning.pl,biogo.pl,sklep-marinelab.pl,rarecraft.pl,kaweo.pl,yummo.pl,candy-shop.pl,slodyczowo.pl,friser.pl,sklep.cryptotech.com.pl,jupiter.com.pl,sklep.bacowkatowary.pl,higienamed.pl,voiceshop.pl,superrower.pl##.consents
 houseofpostcards.pl,sklep.precio.pl,kim24.pl,sklep.moderat.pl,dlagentlemana.pl,nogame.pl,propaganda24h.pl,gomedia.net.pl,sklep.coconaut.com,anhko.pl,4motos.pl,aluramy.pl,ameco-meble-biurowe.pl,exerion.pl,multigastro.pl,badrex-sklep.pl,spinedu.pl,aquamelior.pl,e-hortico.pl,sklep.doppelherz.pl,jestemwbajce.pl,greentouch.pl,4zywioly.pl,kanken.pl,zlotywidelec.pl,sklep.rowery.pl,ketabike.pl,bikerstudio.com.pl,nowakmeble.eu,korona-kielce.pl,mmacity.pl,zadzior.pl,tiptop24.pl,superbutelki.pl,polskibanan.pl,woolona.pl,evertrek.pl,71store.pl,paczkaurody.pl,vetamicus.pl,rbl24.pl,goredo.pl,sklep.yanosik.pl,sklep.bakata.pl,dvbsklep.pl,sklep.telmor.pl,ambition.pl,makalele.pl,carfrance24.pl,kamieniolomy.pl,tukado.pl,capitalbook.com.pl,siglent.com.pl,asan.com.pl,przyczolek.pl,fan.com.pl,elty.pl,roboexpert.pl,jogowy.pl,otulenizapachem.pl,megasam24.pl,sklep.aquick.pl,virtualeye.pl,on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl##+js(set-local-storage-item, show_consent_modal, 1)
 houseofpostcards.pl,sklep.precio.pl,kim24.pl,sklep.moderat.pl,dlagentlemana.pl,nogame.pl,propaganda24h.pl,gomedia.net.pl,sklep.coconaut.com,anhko.pl,4motos.pl,aluramy.pl,ameco-meble-biurowe.pl,exerion.pl,multigastro.pl,badrex-sklep.pl,spinedu.pl,aquamelior.pl,e-hortico.pl,sklep.doppelherz.pl,jestemwbajce.pl,greentouch.pl,4zywioly.pl,kanken.pl,zlotywidelec.pl,sklep.rowery.pl,ketabike.pl,bikerstudio.com.pl,nowakmeble.eu,korona-kielce.pl,mmacity.pl,zadzior.pl,tiptop24.pl,superbutelki.pl,polskibanan.pl,woolona.pl,evertrek.pl,71store.pl,paczkaurody.pl,vetamicus.pl,rbl24.pl,goredo.pl,sklep.yanosik.pl,sklep.bakata.pl,dvbsklep.pl,sklep.telmor.pl,ambition.pl,makalele.pl,carfrance24.pl,kamieniolomy.pl,tukado.pl,capitalbook.com.pl,siglent.com.pl,asan.com.pl,przyczolek.pl,fan.com.pl,elty.pl,roboexpert.pl,jogowy.pl,otulenizapachem.pl,megasam24.pl,sklep.aquick.pl,virtualeye.pl,on-bike.pl,allweld.pl,sklepamarparkiety.pl,hispanito.pl,sklep.dps-software.pl,plantro.pl,meble.expert,xeromania.pl,przeciwpozarowy.com,najlepszefiltry.pl,dynamometryczne.pl,sklep.emmeble.pl,kupkrzeslo.pl,tts.com.pl,wiklik.pl,mildis.pl,upbiuro.pl,ergobiuro.pl,meblemwm.pl,pasiekisadowskich.pl,grupagsm.pl,lpbros.pl,sklep.muduko.com,rowerowelove.shop,efragola.pl,everprint.pl,sklep.serverico.pl,horse-toys.pl,netsklep.com,bubutik.pl,fitness-home.pl,alpinepro.pl,sklep-albatros.pl,monikakaminska.com,elitaro.pl,zegarkiwsieci.pl,yourhouse24.de,wings24.pl,softmm.com.pl,sklep.pl,ewozki.eu,portalgames.pl,gbs.pl,mawcom-elektronarzedzia.pl,metalkas.com.pl,bakeshop.pl,audiotop.pl,sklep.keeza.pl,sklepkawa.pl,fly-desk.com,estetic-dent-sklep.pl,skarbyroztocza.com,miodykrupiec.pl,planszostrefa.pl,questsport.shop,flystore.pl,sklep.70mai.pl,agroczak.pl,led-studio.pl,jptech-maszyny.pl,notopstryk.pl,cebit.pl,polkabubu.pl##+js(set-local-storage-item, user_consents, emptyArr)
+hfk1676.de##+js(set-local-storage-item, user-has-consent-decision, true)
+globalnevs.com##.banner-content
 promocodie.com##.m-privacy-policy-pop-type5
 ilmatieteenlaitos.fi###cookie-consent-content
 ccn.com##.ccn-consent-new
@@ -3070,7 +3072,7 @@ afyonpostasi.com.tr##.cookie-consent-body
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
 falabella.com.pe##.overlay-popover
 spid.center##div[class^="_"]:has(> a[href="/privacy"])
-cinobo.com,seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
+pigeoncast.com,cinobo.com,seyredelim.com,cinobo.pl,mining.sandvik##div[data-consent-banner]
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*##body:style(overflow: auto !important; padding-right: 0 !important; position: static !important; touch-action: auto !important)
 skyscanner.at,skyscanner.cz,skyscanner.de,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.pl,skyscanner.se,skyscanner.net,skyscanner.*##.consent-banner-wrapper:style(display: none !important;)
 bezpiecznewybory.pl##+js(set-local-storage-item, cookiesRejected, true)
@@ -9789,7 +9791,7 @@ yibian.hopto.org###we-use-cookie
 anwb.nl##.critical-dialog
 home3.ee##div[class^="js-cookies-"]
 cruisemapper.com##.sitePrivacyPolicy
-lesecologistes.fr,htw-berlin.de##div[id^="gdpr-"]
+newhaonline.com,lesecologistes.fr,htw-berlin.de##div[id^="gdpr-"]
 investintech.com###geoPolicy
 schwaebischhall.de##.frame-hwdatenschutz_hwcookie
 321linsen.de###vc-bar-cookie
@@ -14541,7 +14543,7 @@ arcteryx.com##.cookies-disclaimer-bar
 oyunlarskor.com###cerez_kabul
 dnaindia.com,zeebiz.com###co-container.co-container
 musabase.com,miyav.com.tr##.cookie-bubble
-mbbru.ru,remkresla.ru,remdivana.ru,spb-obivka-mebeli.ru,aquaphor.ru,gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
+moyaexpress.pl,mbbru.ru,remkresla.ru,remdivana.ru,spb-obivka-mebeli.ru,aquaphor.ru,gorodsreda.ru,allrivers.info,biletyplus.ru,vawoo.co.uk,atompark.com,fuqer.com##.cookies-block
 fredolsen.es##body:style(overflow: visible!important;)
 subscribestar.adult,subscribestar.*##.notice_cookies
 lavenir.net##.cookie-advert

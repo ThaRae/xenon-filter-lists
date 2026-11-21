@@ -2,7 +2,7 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-20 14:04 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Converted by xenon-ublock on 2026-11-21 13:30 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
 ! Kept 6093 of 6093 upstream filters, as 6092 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
@@ -1329,7 +1329,7 @@
 ||app.viralsweep.com^$domain=insidethemagic.net
 ||arsenalinsider.com/subscribe/
 ||artdaily.cc/subscribe.html
-||beehiiv.com^$domain=marktechpost.com|washingtonexaminer.com
+||beehiiv.com^$domain=9to5google.com|9to5mac.com|9to5toys.com|dronedj.com|electrek.co|marktechpost.com|searchengineland.com|spaceexplored.com|washingtonexaminer.com
 ||chan.sankakucomplex.com/javascripts/sp/s-new.js
 ||chemistwarehouse.com.au/edm_collector.html
 ||chimpstatic.com/mcjs-connected/$script,domain=stilldrinking.org
@@ -2003,7 +2003,6 @@ benjamingroff.com##.OPF__embedded-form
 laist.com##.Page-footer-content-above
 brighteon.com##.PopUpNewsletter
 thekitchn.com##.Post__emailSignup
-thedailybeast.com##.ProductCalloutNewsletterModule
 wgbh.org##.PromoCard
 kcur.org,keranews.org,kpbs.org,publicradiotulsa.org,statenews.org##.PromoD
 kpbs.org##.PromoNewsletter
@@ -2175,6 +2174,7 @@ knowyourmeme.com##.beehiiv-newsletter-signup-container
 moneysavingmom.com##.before-content
 buzzfeednews.com##.bfp-newsletter-signup
 thriftytraveler.com##.bg-\[url\(\'\.\.\/images\/newsletter-bg\.jpg\'\)\]
+thedailybeast.com##.bg-\[var\(--components-nl-signup-color-article-surface\)\]
 theblock.co##.bg-black\/90.z-\[9999\].inset-0.fixed
 newsbreak.com##.bg-blue-link
 freedomnews.tv##.bg-fntv-gray\/50
