@@ -2,8 +2,8 @@
 ! Source: https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt
 ! Homepage: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
 ! License: GPL-3.0 (https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-21 13:30 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 54534 of 55386 upstream filters, as 55012 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-22 13:24 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 54537 of 55389 upstream filters, as 55015 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||conventionalresponse.com^
@@ -21149,6 +21149,9 @@ ncore.cc##.banner
 ncore.cc#@#.text-ad-links
 mbl.is##body > main#allt:style(margin-top: 0 !important;)
 airtelxstream.in##.vdo-player__wrapper:style(display: block !important;)
+zeenews.com,zee24taas.com##div[class$="ads_box_300_250"]
+zeenews.com,zee24taas.com##div[class*="_topBanner"]
+zeenews.com,zee24taas.com##div[class$="_adsRow"]
 economictimes.com##.atf-wrapper
 iamgujarat.com##.top-atf-wrapper
 economictimes.com,samayam.com,indiatimes.com,vijaykarnataka.com,maharashtratimes.com##.alaskamasthead
