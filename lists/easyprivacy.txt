@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-23 16:02 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56792 of 56796 upstream filters, as 56788 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-24 15:56 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56798 of 56802 upstream filters, as 56794 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -8067,6 +8067,7 @@ omni.soundestlink.com$image
 ||liftedknowledge.com^
 ||lightenafterthought.com^
 ||lighttalon.com^
+||lightwars.com^
 ||likethedog.com^
 ||lilydreamer.com^
 ||limecodesign.com^
@@ -9452,6 +9453,7 @@ omni.soundestlink.com$image
 ||warnwing.com^
 ||warpedwaffle.com^
 ||washbanana.com^
+||watchbighead.com^
 ||waterloco.com^
 ||waterywave.com^
 ||waveinverter.com^
@@ -9472,6 +9474,7 @@ omni.soundestlink.com$image
 ||webspires.net^
 ||webworksworld.com^
 ||weeklycurrents.com^
+||weirdknight.com^
 ||wellbeingforce.com^
 ||wellgroomedapparel.com^
 ||wellgroomedhydrant.com^
@@ -9548,11 +9551,13 @@ omni.soundestlink.com$image
 ||yellowscissors.com^
 ||yetiminis.com^
 ||yieldingwoman.com^
+||yogatryout.com^
 ||youanonymous.com^
 ||youcandrawanything.com^
 ||yourgiftedbaby.com^
 ||yourlifedream.com^
 ||yourownexpert.com^
+||yummymacaroni.com^
 ||zanyapps.com^
 ||zapandmake.com^
 ||zephyrcatalyst.com^
@@ -9567,6 +9572,7 @@ omni.soundestlink.com$image
 ||zipperxray.com^
 ||zipthelake.com^
 ||zlp6s.pw^
+||zodiacglass.com^
 ||zonegroove.com^
 ||zonewedgeshaft.com^
 ||acustomizedgift.com^$domain=masslive.com|silive.com
