@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-24 15:56 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6093 of 6093 upstream filters, as 6092 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-25 15:40 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6094 of 6094 upstream filters, as 6093 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -3550,6 +3550,7 @@ online-tech-tips.com##.sidebar-signup-form
 techerati.com##.sidebar-signup-form-container
 thesaturdaypaper.com.au##.sidebar-sticky--briefing
 coincodex.com,halfbakedharvest.com##.sidebar-subscribe
+greynoise.io##.sidebar-subscribe-box
 fortune.com##.sidebarPlea
 evinfocus.com,pbs.org,readtangle.com,wheresyoured.at##.sidebar__subscribe
 therecord.media##.sidebar__widget--newsletter
@@ -3853,7 +3854,7 @@ digitimes.com##.tp-banner
 hbr.org,heraldscotland.com,nationalpost.com,scotsman.com,vancouversun.com##.tp-container-inner
 tp-link.com##.tp-follow-container
 independent.co.uk,nationalobserver.com##.tp-modal
-theblast.com##.tpd-newsletter-card
+justjared.com,theblast.com##.tpd-newsletter-card
 tweaktown.com##.tt-daily-inline
 tweaktown.com##.tt-rail-daily
 crypto-news-flash.com##.tve-leads-shortcode

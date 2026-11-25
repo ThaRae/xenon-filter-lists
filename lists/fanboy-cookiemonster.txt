@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-24 15:56 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28233 of 28233 upstream filters, as 28231 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-25 15:40 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28234 of 28234 upstream filters, as 28232 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -18156,7 +18156,7 @@ kbs.co.kr##.chrome_pick
 baldursgate3.game,larian.com##.ciastko
 tonies.com##.cjBwKv
 myvi.in##.ck-container
-behaviourchangeagency.com##.ck-cookie-w
+behaviourchangeagency.com,greynoise.io##.ck-cookie-w
 ilovepdf.com##.ck-tstr
 blog.dynasage.com,dotycat.com,phone-updates.com##.ckWrap
 img.ly##.cke-overlay
@@ -19664,7 +19664,7 @@ ticketmaster.com##[aria-describedby="mobileMobileTOUMessage"]
 anexia.com##[aria-describedby="privacy-settings-description"]
 dot-symbol.com##[aria-label="Analytics consent"]
 kstp.com,lucidchart.com,scribd.com,whec.com##[aria-label="Cookie Consent Banner"]
-1password.com,quantpedia.com,shirtspace.com##[aria-label="Cookie Consent"]
+1password.com,fontcheckerpro.com,quantpedia.com,shirtspace.com##[aria-label="Cookie Consent"]
 pretense.ai##[aria-label="Cookie and privacy notice"]
 dictionary.cambridge.org,lovable.dev##[aria-label="Cookie banner"]
 the-fence.com##[aria-label="Cookie choices"]
@@ -19951,6 +19951,7 @@ reddit.com##shreddit-cookie-banner
 remotehub.com##smp-cookies-banner
 truecaller.com##span > .max-w-md.shadow-lg
 planner.kaboodle.co.nz##tw-privacy-preference
+ed.ac.uk##uoe-consent
 trinitycineasia.com##ush-cookie-consent
 trumpf.com##ux-cookie-layer
 pacificpower.net,rockymountainpower.net##wcss-cookie-banner
