@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 ! Homepage: https://github.com/easylist/easylist#fanboy-lists
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-25 15:40 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 28234 of 28234 upstream filters, as 28232 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-26 15:22 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 28239 of 28239 upstream filters, as 28237 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -consent-banner-
@@ -17607,6 +17607,7 @@ acoup.blog,candidcyber.com,commonplacefacts.com,decorado.co.il,maxstock.co.il,po
 wpx.net###wpx-cookie-agreement
 here.com###wrapper
 groners.com###wrapper_cookiebanner
+web-site.care###wsc-consent
 wyze.com###wyze-cookie-banner
 xhorsetool.com###xri_GoogConsent
 hydramatics.co.za###zcb-banner
@@ -24885,6 +24886,7 @@ lartigiano.gr###CookiesSection
 traderetail.gr###NMCookie_container
 restiasuites.gr###advert-once
 stigmap.gr###btm_terms
+24ores.gr###ck
 digea.gr###ck_cookies
 eudoxus.gr###consentPlaceholder
 krikri.gr###cookSETwin
@@ -26427,6 +26429,7 @@ lk-new.vtbnpf.ru##.cookie-layout
 theblueprint.ru##.cookie-line
 rutube.ru##.cookie-message-module__cookie-consent
 sponsr.ru##.cookie-site-alert
+rutube.ru##.cookie-snackbar-module__snackbar
 kgdavia.ru,mmkavia.ru##.cookieAgr
 korusconsulting.ru##.cookieConfirm
 rusnano.com##.cookie__in
@@ -27321,6 +27324,7 @@ fptshop.com.vn##[data-cookie-consent-modal="true"]
 ||oeaw.ac.at^*/js.cookie.min.js
 ||piazza.cc/public/app.js
 ||postleitzahl.org/images/consent.php
+||privacy.diepresse.com^
 ||rheinenergie.com/libs/cookiebanner/
 ||seduction-magazin.de/wp-content/plugins/borlabs-cookie/
 ||sprengel-pr.com/public/app.js
@@ -27351,6 +27355,7 @@ fptshop.com.vn##[data-cookie-consent-modal="true"]
 ||privacy.heidi.news^
 ||privacy.letemps.ch^
 ||privacy.luxair.lu^
+||privacy.maison-travaux.fr^
 ||ratp.fr/modules/custom/ratp_tarteaucitron/
 ||thesiteoueb.net/js/cm-head.js
 ||vape-phone.fr/bundles/webtoolcore/js/newCookieChoice.js
