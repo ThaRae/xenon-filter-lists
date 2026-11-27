@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-26 15:22 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 3363 of 3417 upstream filters, as 3360 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 3366 of 3420 upstream filters, as 3363 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ilovevaldinon.it##+js(acs, document.oncontextmenu)
@@ -918,6 +918,7 @@ televid.top,ontvtime.ru,zhdcdn1.li,freecam.ro##+js(aeld, contextmenu)
 televizia.org,webcamromania.ro##+js(aeld, contextmenu, preventDefault)
 canale-tv.net,tvron.*##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
 iplayerhls.com,morencius.com,hanerix.com,vibuxer.com,audinifer.com##+js(set, HTMLDivElement.prototype.oncontextmenu, null)
+kwik.cx##+js(aeld, contextmenu, preventDefault)
 @@||socialblade.com^$ghide
 socialblade.com##.cas-container
 socialblade.com##.cas-wide-container
@@ -3366,3 +3367,5 @@ liddread.com##+js(rmnt, script, /wpcp|contextmenu|unselectable/)
 liddread.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -khtml-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; -webkit-tap-highlight-color: revert !important; cursor: revert !important;)
 /wp-content/plugins/content-shield-pro/assets/csp-front.min.js$script
 ||cinevid.sbs/protect.js
+way2movies.vip##+js(aeld, /contextmenu|keydown/, preventDefault)
+way2movies.vip##+js(nostif, 'ie,250')

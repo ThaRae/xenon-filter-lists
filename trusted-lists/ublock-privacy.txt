@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/privacy.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-26 15:22 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 1549 of 1830 upstream filters, as 1698 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 1552 of 1833 upstream filters, as 1701 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||google-analytics.com/analytics.js$script,xhr,redirect=google-analytics_analytics.js:5
@@ -1640,7 +1640,10 @@ tiktok.com##+js(set-local-storage-item, /__tea_cache_events_.*/, $remove$)
 /prod/pni/g2i.min.js?
 /prod/pni/fp.min.js?
 fcportables.com,filecatchers.com##+js(no-fetch-if, method:POST body:/detect|trigger/)
-fcportables.com,filecatchers.com##+js(nostif, onerror)
+fcportables.com,filecatchers.com##+js(no-xhr-if, body:\u)
+fcportables.com,filecatchers.com##+js(no-fetch-if, body:\\u)
+||fcportables.com/p4on3l/
+||filecatchers.com/k5yy6w/
 ||suikora.com/api/views
 /edgemesh.*.js$script,domain=~edgemesh.com|~edgeno.de
 ||safelinkconverter.com^$script,3p

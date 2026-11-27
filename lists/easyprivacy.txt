@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easyprivacy.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-26 15:22 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 56837 of 56841 upstream filters, as 56833 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 56845 of 56849 upstream filters, as 56841 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 &&sub19=undefined&sub20=undefined
@@ -2135,6 +2135,7 @@
 /screencount?vcid=
 /scribd_events?
 /script.outbound-links.js
+/script.outbound-links.pageview-props.js
 /script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
 /script/pixel.js
@@ -7863,6 +7864,7 @@ omni.soundestlink.com$image
 ||healthyclad.com^
 ||heartbreakingmind.com^
 ||hearthow.com^
+||heathstyle.com^
 ||heatrave.com^
 ||heavydetail.com^
 ||heavyplayground.com^
@@ -7910,6 +7912,7 @@ omni.soundestlink.com$image
 ||hostchutney.com^
 ||housewheels.com^
 ||howdoesthislook.com^
+||howglam.com^
 ||hubcapcafe.net^
 ||humbleroots.net^
 ||humdrumhobbies.com^
@@ -8086,6 +8089,7 @@ omni.soundestlink.com$image
 ||littlesun.net^
 ||livelumber.com^
 ||livelylaugh.com^
+||livingoff.com^
 ||livingsleet.com^
 ||lizardslaugh.com^
 ||llamavoice.com^
@@ -8165,6 +8169,7 @@ omni.soundestlink.com$image
 ||marriedvalue.com^
 ||marsnextdoor.com^
 ||mascguys.com^
+||maskdomains.com^
 ||maskedadmin.com^
 ||masondown.com^
 ||masseurexpress.com^
@@ -13669,6 +13674,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trygravity.ai/ack?
 ||ts.tradetracker.net^
 ||turnto.com/event
+||tvid.in/api/track
 ||tvpage.com/tvpa.min.js
 ||tvpage.com^*/__tvpa.gif?
 ||twitter.com/jot.html
@@ -13692,7 +13698,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unibet.de/stan/campaign.do?*&affiliateId=$subdocument,third-party
 ||unifyintent.com/analytics/
 ||units.knotch.it^
-||unpkg.com/web-vitals?
+||unpkg.com/web-vitals
 ||upsell-app.logbase.io/metrics
 ||uptime.com/static/rum/$third-party
 ||uptime.fastrr.com^
@@ -13849,6 +13855,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||widgetserver.com^*/image.gif?
 ||win.staticstuff.net^
 ||witbee.com^*/collect
+||wkbrs1.tingyun.com^
 ||wl-pixel.index.digital^
 ||wn.com/count.js
 ||wogaa.sg/scripts/wogaa.js
@@ -17958,6 +17965,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ss.partner.life360.com/bwcrqwpxgng.js
 ||svc2.sc.com^
 ||taboola.com/gtm/
+||techbarrista.com/api/event
 ||theverge.com/metrics/
 ||tips.delt.io^
 ||tm-eps.neutrino.nu^
