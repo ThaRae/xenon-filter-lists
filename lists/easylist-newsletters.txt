@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/thirdparties/easylist-newsletters.txt
 ! Homepage: https://easylist.to/
 ! License: GPL-3.0-or-later OR CC-BY-SA-3.0-or-later (https://easylist.to/pages/licence.html)
-! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 6095 of 6095 upstream filters, as 6094 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-28 14:15 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 6097 of 6097 upstream filters, as 6096 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 -footer-newsletter.
@@ -4106,6 +4106,7 @@ houseofsaud.com##[style*="margin:2em 0;background:#0f0f14;border:1px solid rgba(
 middleeasteye.net##[style^="display: flex; align-items: center; justify-content: center;"]
 takimag.com##[style^="width: 100vw; height: 100vh; background-image: linear-gradient"]
 foxsports.com.au##[title="Newsletter"]
+dansinker.com##[x-data="newsletter"]
 factcheck.org##a[href*="/subscribe/"]
 quantamagazine.org##a[href="#newsletter"]
 time.com##a[href^="https://cloud.newsletters.time.com/signup?"]
@@ -4115,6 +4116,7 @@ refinery29.com##aside
 cfe.dev##aside.sticky.top-\[114px\].mt-12
 decisiondeskhq.com##astro-island[component-url*="/_astro/Newsletter."]
 cars.com##cars-newsletter-signup
+dansinker.com##.bg-orange-200:has-text(I write about)
 blockworks.co##div > .p-10.gap-4
 nature.com##div.c-site-messages
 bustle.com##div.lqj:last-child

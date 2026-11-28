@@ -2,8 +2,8 @@
 ! Source: https://ublockorigin.github.io/uAssets/filters/annoyances-cookies.txt
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! License: GPL-3.0 (https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 2379 of 2381 upstream filters, as 2369 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-28 14:15 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 2378 of 2380 upstream filters, as 2368 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 blaklader.*##div#onetrust-consent-sdk
@@ -2176,8 +2176,7 @@ halvathinnat.com##+js(trusted-set-cookie, amcookie_allowed, 1%2C4, 1year)
 nwzonline.de##+js(trusted-click-element, #cmpwrapper >>> a.cust-btn[onclick*="__cmp('setConsent', 1)"], , 1500)
 customuse.com##+js(trusted-set-cookie-reload, CookiesControl, '{"necessary":true,"performance":false}')
 wero-wallet.eu##+js(trusted-click-element, button#CybotCookiebotDialogBodyButtonDecline)
-scaleway.com##+js(set-cookie, _scw_rgpd_functional, true)
-scaleway.com##+js(trusted-click-element, button.cta-size-big.cta-outline)
+scaleway.com##+js(trusted-click-element, div[class*="cookie"] div button:first-of-type)
 account.scaleway.com###backdrop-modal
 vide-greniers.org##+js(trusted-click-element, button[mode="primary"])
 cloud.samsungsds.com##+js(trusted-set-local-storage-item, cookiePreferences, allow-required)

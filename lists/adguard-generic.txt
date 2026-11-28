@@ -2,8 +2,8 @@
 ! Source: https://filters.adtidy.org/extension/ublock/filters/2_without_easylist.txt
 ! Homepage: https://github.com/AdguardTeam/AdguardFilters#adguard-filters
 ! License: GPL-3.0 (https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE)
-! Converted by xenon-ublock on 2026-11-27 15:10 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
-! Kept 55855 of 56706 upstream filters, as 56336 filters; the rest cannot take
+! Converted by xenon-ublock on 2026-11-28 14:15 UTC for Ladybird's content blocker with xenon-ublock's engine/patches (adblock 0.13.3 with css-validation, uBlock Origin's resources).
+! Kept 55862 of 56713 upstream filters, as 56343 filters; the rest cannot take
 ! effect in Ladybird. See report.md and dropped/ next to this file for what was dropped and why.
 !
 ||adfractal.com^$all
@@ -14856,7 +14856,6 @@ mlhbd.xyz#@#.adunit
 mlhbd.xyz#@#.ad_box:not(.text-ad)
 mlhbd.xyz#@#.ads-300x250
 mlhbd.xyz#@#.sponsored-ad
-vpnjantit.com##body > div[style^="position: fixed; inset: 0px; width: 100%;"]:has(> div[style] > button[onclick^="window.location.reload"])
 mdiaload.com##+js(abort-on-stack-trace, document.createElement, /eval|aabcBoot/)
 harlmail.com##html:style(overflow: auto !important;)
 harlmail.com###__ab_guard:style(display: none !important;)
@@ -14892,9 +14891,9 @@ freemodels.pro##+js(no-setTimeout-if, { [native code] }, 600)
 thertstv.com##body:style(overflow: auto !important;)
 thertstv.com##body > div#wrapper:style(filter: none !important; pointer-events: auto !important;)
 thertstv.com##body > div[style*="position: fixed; z-index: 2147483647;"]:style(display: none !important;)
-f4scdn.com##body > .adsbox.pub_300x250[style]:style(display: block !important;)
-f4scdn.com##+js(prevent-fetch, pagead2.googlesyndication.com)
-f4scdn.com##+js(remove-attr, data-block-adblock, .player-wrap[data-block-adblock])
+f4splay.vip,f4scdn.com##body > .adsbox.pub_300x250[style]:style(display: block !important;)
+f4splay.vip,f4scdn.com##+js(prevent-fetch, pagead2.googlesyndication.com)
+f4splay.vip,f4scdn.com##+js(remove-attr, data-block-adblock, .player-wrap[data-block-adblock])
 nosubapp.com##.adblock-gate:style(display: none !important;)
 nosubapp.com##.adblock-locked:style(overflow: auto !important;)
 livelive24.st,livelive24.com###adblockOverlay:style(display: none !important;)
@@ -14960,7 +14959,8 @@ seturl.in###blocker-overlay
 indexsubtitle.cc##body > div#app-runtime-cover
 ||app.diagnoseo.com/tools/common-js/dsn.js
 adslink.pw##+js(prevent-fetch, adsbygoogle)
-fast-down.com,lnbzi.com,lnbzi.com,linegee.net,aii.sh,srnky.com,clksz.com,fcportables.com,intercelestial.com##+js(set-constant, navigator.webdriver, true)
+fast-down.com,lnbzi.com,linegee.net,aii.sh,srnky.com,clksz.com,fcportables.com,intercelestial.com##+js(set-constant, navigator.webdriver, true)
+/^https:\/\/intercelestial\.com\/[a-z0-9]{10,14}\/[a-z0-9._-]+\.js(\?.*)?$/$script,domain=intercelestial.com
 pitube.net##+js(addEventListener-defuser, DOMContentLoaded, detectAdBlock)
 pitube.net#@#.ad-unit:not(.textads)
 genelify.com###adblock-detector-wrapper
@@ -20043,6 +20043,7 @@ auto.am##.azd-top
 .az/reklamexport_
 ##.ainsyndication
 az##.makerekframe
+||globalpromo.az/placements.js$domain=baku.ws
 ||day.az/ads/
 news.day.az##div[id^="DAY_Slot_"]
 news.day.az##.banner-wrapper
@@ -31842,6 +31843,13 @@ $subdocument,3p,domain=love4u.net
 $image,3p,domain=vipbox1.org
 @@||googleapis.com^$image,3p,domain=vipbox1.org
 ||linksconsole.com/ad-system/
+luciferdonghua.in###sidebar > .widget_text > .custom-html-widget
+functioncube.com##tbody > tr > td > div[style]:has(> script + ins.adsbygoogle)
+sheepesports.com##a[href="https://polymarket.com"]
+sheepesports.com##a[href="https://www.michelin.com/en/media/magazine/michelin-video-game-rocket-league"]
+gamerant.com##.gr-ig-offer
+epicroms.net##+js(remove-node-text, script, /\(\)\;void window\;/)
+epicroms.net##center > button.file-download-btnn
 finance.yahoo.com##.dock-item.dock-top-insert
 ||smailpro.com/img/smailpro.com/banners/
 smailpro.com##div[data-partner]
@@ -32357,8 +32365,8 @@ gptcleanuptools.com##body > div.backdrop-blur.fixed:has(ins.adsbygoogle)
 dmagazine.com##.c-advertisement-native
 dmagazine.com##.c-featured-post-feed__latest-slide--partner
 dmagazine.com##.c-section__stories > .c-section__story:has(>.c-advertisement-native)
-f4scdn.com##+js(no-window-open-if, _blank)
-f4scdn.com##+js(json-prune, $.[?(@.urls && @.vast)].*)
+f4splay.vip,f4scdn.com##+js(no-window-open-if, _blank)
+f4splay.vip,f4scdn.com##+js(json-prune, $.[?(@.urls && @.vast)].*)
 empireonline.com##div[class^="advertWrapper-"]
 mumsnet.com##div[id^="side-rail-"]
 mumsnet.com##aside:has(> div[id^="feedAd"])
@@ -32845,7 +32853,6 @@ deepai.org##div[data-adtype]
 petersenshunting.com##.adpos_rightD
 speedof.me##.intro-ad-footer
 ||speedof.me/api/uc.php
-speedof.me##.api-ad-footer
 cine.su##+js(json-prune, $..children.*[?(@.id=="ad-network-boot")].dangerouslySetInnerHTML.__html)
 pornditt.com##.top_nav_menu
 startpage.com###main > div[data-bvs][data-identifier]
@@ -53316,7 +53323,7 @@ zerohedge.com##.container > div[class^="Page_"]:style(padding-top: 80px !importa
 redirectchecker.io##main > div > div.w-full:has(> div.mx-auto > p.tracking-wide)
 bleepingcomputer.com##.bc_right_sidebar div[align="center"] > a[target="_blank"] > img
 insideevs.com,motor1.com##.outstream_partner
-outsideonline.com##.prestitial-ad
+backpacker.com,outsideonline.com##.prestitial-ad
 comix.*,comix.ws,animekai.*,animekai.la,animekai.gs,animekai.fo,animekai.fi,comix.to,anikai.to##body > a[target="_blank"][style^="position:"][style*="z-index:"]
 onejailbreak.com##.gtm-cls
 uploadnow.io##div[class^="file_browser_alt_ad_wrap__"]
